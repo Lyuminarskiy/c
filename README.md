@@ -24,14 +24,14 @@ Nick Smith, 19
 
 Write a program to declarate a couple of variables (`a`, `b`, `c`):
 
-Variant | `a` | `b` | `c`
-- | - | - | -
-First | 457 | 6.03 | 'c'
-Second | 373 | 'x' | 167.314
-Third | 60.2 | 'e' | 442
-Fourth | 122.1 | 560 | 'w'
-Fifth | 'f' | 1132 | 39.6
-Sixth | 'y' | 77.9 | 2502
+| Variant | `a` | `b` | `c`
+| - | - | - | -
+| First | 457 | 6.03 | 'c'
+| Second | 373 | 'x' | 167.314
+| Third | 60.2 | 'e' | 442
+| Fourth | 122.1 | 560 | 'w'
+| Fifth | 'f' | 1132 | 39.6
+| Sixth | 'y' | 77.9 | 2502
 
 Choose according basic data type for each variable:
 
