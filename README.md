@@ -110,7 +110,7 @@ Write a program to calculate an expression:
 | Variant | Description
 | - | -
 | First | Create three floating point numbers and calculate their average value.
-| Second | Create three floating point numbers and check whether their sum is greater than | their multiplication.
+| Second | Create three floating point numbers and check whether their sum is greater than their multiplication.
 | Third | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.
 | Fourth | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number.
 | Fifth | Create three floating point numbers and check whether all of them are positive or non-positive.
