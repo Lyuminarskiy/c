@@ -9,6 +9,16 @@ Contents:
   - [1.3. `If-Else` Statement](#13-if-else-statement)
   - [1.4. `If-Else` Statements Chain](#14-if-else-statements-chain)
   - [1.5 Operators](#15-operators)
+  
+Student:
+
+| Variant | Student Name
+| 1 | *Isha* Naa Ofeibea Dodoo
+| 2 | *Rutendo* Midzi
+| 3 | *Golfam* Mumawar
+| 4 | *Emmanuel* Oyetunji Opeyemi
+| 5 | *Golden* Chebuzor Ubokh
+| 6 | *Janti* Chuks Chidinma
 
 ## 1. First Lesson
 
