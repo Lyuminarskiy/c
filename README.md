@@ -1,3 +1,5 @@
+> Book: [The C programming language](http://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf).
+
 # C Language Course
 
 Contents:
