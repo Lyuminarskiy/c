@@ -64,14 +64,14 @@ c = 'h'
 
 Write a program using `if-else` statement:
 
-Variant | Description
-- | -
-First | Create an integer and check whether it is even or odd.
-Second | Create an integer and check whether it is positive or non-positive.
-Third | Create an integer and check whether it is negative or non-negative.
-Fourth | Create two integers and check whether they are equal or not.
-Fifth | Create two integers and check if the first is bigger than the second.
-Sixth | Create two integers and check if the first is smaller than the second.
+| Variant | Description
+| - | -
+| First | Create an integer and check whether it is even or odd.
+| Second | Create an integer and check whether it is positive or non-positive.
+| Third | Create an integer and check whether it is negative or non-negative.
+| Fourth | Create two integers and check whether they are equal or not.
+| Fifth | Create two integers and check if the first is bigger than the second.
+| Sixth | Create two integers and check if the first is smaller than the second.
 
 Display the results.
 
@@ -92,14 +92,14 @@ Display the results.
 
 Write a program using `if-else` statements chain:
 
-Variant | Description
-- | -
-First | Create three different integers and find the biggest value.
-Second | Create three different integers and find the smallest value.
-Third | Create three different integers and find the biggest value.
-Fourth | Create three different integers and find the smallest value.
-Fifth | Create three different integers and find the biggest value.
-Sixth | Create three different integers and find the smallest value.
+| Variant | Description
+| - | -
+| First | Create three different integers and find the biggest value.
+| Second | Create three different integers and find the smallest value.
+| Third | Create three different integers and find the biggest value.
+| Fourth | Create three different integers and find the smallest value.
+| Fifth | Create three different integers and find the biggest value.
+| Sixth | Create three different integers and find the smallest value.
 
 Display the results.
 
@@ -107,13 +107,13 @@ Display the results.
 
 Write a program to calculate an expression:
 
-Variant | Description
-- | -
-First | Create three floating point numbers and calculate their average value.
-Second | Create three floating point numbers and check whether their sum is greater than their multiplication.
-Third | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.
-Fourth | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number.
-Fifth | Create three floating point numbers and check whether all of them are positive or non-positive.
-Sixth | Create three floating point numbers and check whether all of them are negative or non-negative.
+| Variant | Description
+| - | -
+| First | Create three floating point numbers and calculate their average value.
+| Second | Create three floating point numbers and check whether their sum is greater than | their multiplication.
+| Third | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.
+| Fourth | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number.
+| Fifth | Create three floating point numbers and check whether all of them are positive or non-positive.
+| Sixth | Create three floating point numbers and check whether all of them are negative or non-negative.
 
 Display the results.
