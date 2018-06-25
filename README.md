@@ -13,6 +13,7 @@ Contents:
 Student:
 
 | Variant | Student Name
+| - | -
 | 1 | *Isha* Naa Ofeibea Dodoo
 | 2 | *Rutendo* Midzi
 | 3 | *Golfam* Mumawar
