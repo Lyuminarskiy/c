@@ -18,14 +18,14 @@ Contents:
 
 Students:
 
-| Variant | Student Name                |
-| ------- | --------------------------- |
-| 1       | *Isha* Naa Ofeibea Dodoo    |
-| 2       | *Rutendo* Midzi             |
-| 3       | *Golfam* Mumawar            |
-| 4       | *Emmanuel* Oyetunji Opeyemi |
-| 5       | *Golden* Chebuzor Ubokh     |
-| 6       | *Janti* Chuks Chidinma      |
+| Variant | Student Name                  |
+| ------- | ----------------------------- |
+| 1       | **Isha** Naa Ofeibea Dodoo    |
+| 2       | **Rutendo** Midzi             |
+| 3       | **Golfam** Mumawar            |
+| 4       | **Emmanuel** Oyetunji Opeyemi |
+| 5       | **Golden** Chebuzor Ubokh     |
+| 6       | **Janti** Chuks Chidinma      |
 
 ## 1. First lesson
 
