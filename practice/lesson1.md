@@ -42,7 +42,8 @@ Nick Smith, 19
 > number2 = 214;
 > ```
 >
-> C Language provides several basic data types:
+> The C Language provides several basic data types:
+>
 > | Data Type | Description                               |
 > | --------- | ----------------------------------------- |
 > | `char`    | A single character.                       |
