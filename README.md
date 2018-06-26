@@ -13,6 +13,7 @@ Contents:
   - [2.1. Conditional Expression](#21-conditional-expression)
   - [2.2. Enumeration](#22-enumeration)
   - [2.3. `Switch` Statement](#23-switch-statement)
+  - [From `if-else` to `switch`](#from-if-else-to-switch)
 
 Students:
 
@@ -147,7 +148,7 @@ Display the results.
 >
 > `Expression1` is evaluated first. If it is true (non-zero), then `expression2` is evaluated, and that is the value of conditional expression. Otherwise `expression3` is evaluated.
 
-Change `If-Else` Statement to conditional expression.
+Change `if-Else` Statement to conditional expression.
 
 First Variant:
 
@@ -302,3 +303,45 @@ switch (enum_var)
 ```
 
 So you should print name of your enumeration's constant.
+
+### From `if-else` to `switch`
+
+Change `if-Else` statements chain to `switch` statement.
+
+First Variant:
+
+```c
+int number;
+
+if (number = 1)
+{
+  printf("1");
+}
+else if (number =  2 || number =  3)
+{
+  printf("2 || 3");
+}
+else
+{
+  printf("wrong value");
+}
+```
+
+Second Variant:
+
+```c
+char grade;
+
+if (grade = 'A' || grade =  'B')
+{
+  printf("A || B");
+}
+else if (grade =  'C')
+{
+  printf("C");
+}
+else
+{
+  printf("wrong value");
+}
+```
