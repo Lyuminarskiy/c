@@ -14,6 +14,7 @@ Contents:
   - [2.2. Enumeration](#22-enumeration)
   - [2.3. `Switch` Statement](#23-switch-statement)
   - [2.4. From `if-else` to `switch`](#24-from-if-else-to-switch)
+  - [2.5. Making a questionnaire](#25-making-a-questionnaire)
 
 Students:
 
@@ -32,7 +33,7 @@ Students:
 
 Write a program to display your name and age. To deal with it one should use a `printf()` function.
 
-Sample Ouput:
+Sample output:
 
 ```c
 Nick Smith, 19
@@ -61,7 +62,7 @@ Choose according basic data type for each variable:
 
 Display variables values.
 
-Sample Ouput:
+Sample output:
 
 ```c
 a = 1
@@ -438,4 +439,37 @@ else
 {
   printf("wrong value");
 }
+```
+
+### 2.5. Making a questionnaire
+
+Make a simple questionnaire containing 3-5 questions with 4 possible answers. User should choose one correct answer by typing answer's number, which is integer from 1 to 4.
+
+To read data from standard input one should use a `scanf()` function. Here is an example of reading integer number from a standard input:
+
+```c
+printf ("Please, enter your age: ");
+
+int age;
+scanf ("%d", &age);
+
+printf ("It seems like your age is %d.", age);
+```
+
+After finishing questionnaire your program should display number of a correct answers in percentage.
+
+Sample output:
+
+```c
+1. ... (question's text) ?
+  1. ... (first answer's text)
+  2. ... (second answer's text)
+  3. ... (third answer's text)
+  4. ... (fourth answer's text)
+
+Please, choose the correct answer:
+
+... (other questions below)
+
+Your success rate is ... %.
 ```
