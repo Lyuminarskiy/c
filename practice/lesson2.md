@@ -157,12 +157,12 @@ Create your own enumeration:
 
 | Variant | Description                              |
 | ------- | ---------------------------------------- |
-| First   | Enumeration of months.                   |
-| Second  | Enumeration of rainbow's colors.         |
-| Third   | Enumeration of some animals.             |
-| Fourth  | Enumeration of some flowers.             |
-| Fifth   | Enumeration of some car brands.          |
-| Sixth   | Enumeration of some phone manufacturers. |
+| 1       | Enumeration of months.                   |
+| 2       | Enumeration of rainbow's colors.         |
+| 3       | Enumeration of some animals.             |
+| 4       | Enumeration of some flowers.             |
+| 5       | Enumeration of some car brands.          |
+| 6       | Enumeration of some phone manufacturers. |
 
 ## 3. `switch` statement
 

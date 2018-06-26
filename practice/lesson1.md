@@ -57,12 +57,12 @@ Declare three of variables (`a`, `b`, `c`) choosing an according basic data type
 
 | Variant | `a`   | `b`  | `c`     |
 | ------- | ----- | ---- | ------- |
-| First   | 457   | 6.03 | 'c'     |
-| Second  | 373   | 'x'  | 167.314 |
-| Third   | 60.2  | 'e'  | 442     |
-| Fourth  | 122.1 | 560  | 'w'     |
-| Fifth   | 'f'   | 1132 | 39.6    |
-| Sixth   | 'y'   | 77.9 | 2502    |
+| 1       | 457   | 6.03 | 'c'     |
+| 2       | 373   | 'x'  | 167.314 |
+| 3       | 60.2  | 'e'  | 442     |
+| 4       | 122.1 | 560  | 'w'     |
+| 5       | 'f'   | 1132 | 39.6    |
+| 6       | 'y'   | 77.9 | 2502    |
 
 Display variables' values.
 
@@ -87,14 +87,14 @@ c = 'h'
 
 Solve the task using `if-else` statement:
 
-| Variant | Description
-| - | -
-| First | Create an integer and check whether it is even or odd.
-| Second | Create an integer and check whether it is positive or non-positive.
-| Third | Create an integer and check whether it is negative or non-negative.
-| Fourth | Create two integers and check whether they are equal or not.
-| Fifth | Create two integers and check if the first is bigger than the second.
-| Sixth | Create two integers and check if the first is smaller than the second.
+| Variant | Description                                                            |
+| ------- | ---------------------------------------------------------------------- |
+| 1       | Create an integer and check whether it is even or odd.                 |
+| 2       | Create an integer and check whether it is positive or non-positive.    |
+| 3       | Create an integer and check whether it is negative or non-negative.    |
+| 4       | Create two integers and check whether they are equal or not.           |
+| 5       | Create two integers and check if the first is bigger than the second.  |
+| 6       | Create two integers and check if the first is smaller than the second. |
 
 Display the results.
 
@@ -117,12 +117,12 @@ Solve the task using `if-else` statements chain:
 
 | Variant | Description                                                  |
 | ------- | ------------------------------------------------------------ |
-| First   | Create three different integers and find the biggest value.  |
-| Second  | Create three different integers and find the smallest value. |
-| Third   | Create three different integers and find the biggest value.  |
-| Fourth  | Create three different integers and find the smallest value. |
-| Fifth   | Create three different integers and find the biggest value.  |
-| Sixth   | Create three different integers and find the smallest value. |
+| 1       | Create three different integers and find the biggest value.  |
+| 2       | Create three different integers and find the smallest value. |
+| 3       | Create three different integers and find the biggest value.  |
+| 4       | Create three different integers and find the smallest value. |
+| 5       | Create three different integers and find the biggest value.  |
+| 6       | Create three different integers and find the smallest value. |
 
 Display the results.
 
@@ -132,11 +132,11 @@ Calculate an expression:
 
 | Variant | Description                                                                                                          |
 | ------- | -------------------------------------------------------------------------------------------------------------------- |
-| First   | Create three floating point numbers and calculate their average value.                                               |
-| Second  | Create three floating point numbers and check whether their sum is greater than their multiplication.                |
-| Third   | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.        |
-| Fourth  | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number. |
-| Fifth   | Create three floating point numbers and check whether all of them are positive or non-positive.                      |
-| Sixth   | Create three floating point numbers and check whether all of them are negative or non-negative.                      |
+| 1       | Create three floating point numbers and calculate their average value.                                               |
+| 2       | Create three floating point numbers and check whether their sum is greater than their multiplication.                |
+| 3       | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.        |
+| 4       | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number. |
+| 5       | Create three floating point numbers and check whether all of them are positive or non-positive.                      |
+| 6       | Create three floating point numbers and check whether all of them are negative or non-negative.                      |
 
 Display the results.
