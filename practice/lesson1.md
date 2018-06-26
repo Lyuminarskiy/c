@@ -11,7 +11,15 @@ Contents:
 
 ## 1. Getting started
 
-Write a program to display your name and age. To deal with it one should use a `printf()` function.
+> To write data to a standard output one should use a `printf()` function. Here is an example of writing integer number to a standard output:
+>
+> ```c
+> int number = 42;
+>
+> printf ("value = %d", number);
+> ```
+
+Display your name and age.
 
 Sample output:
 
@@ -44,7 +52,7 @@ Nick Smith, 19
 > | `float`   | A single-precision floating point number. |
 > | `double`  | A double-precision floating point number. |
 
-Write a program to declarate a couple of variables (`a`, `b`, `c`):
+Declare three of variables (`a`, `b`, `c`) choosing an according basic data type for each variable and initializing them with values shown below:
 
 | Variant | `a`   | `b`  | `c`     |
 | ------- | ----- | ---- | ------- |
@@ -55,7 +63,7 @@ Write a program to declarate a couple of variables (`a`, `b`, `c`):
 | Fifth   | 'f'   | 1132 | 39.6    |
 | Sixth   | 'y'   | 77.9 | 2502    |
 
-Choose according basic data type for each variable and display their values.
+Display variables' values.
 
 Sample output:
 
@@ -76,7 +84,7 @@ c = 'h'
 >   statement2
 > ```
 
-Write a program using `if-else` statement:
+Solve the task using `if-else` statement:
 
 | Variant | Description
 | - | -
@@ -104,7 +112,7 @@ Display the results.
 >   statement4
 > ```
 
-Write a program using `if-else` statements chain:
+Solve the task using `if-else` statements chain:
 
 | Variant | Description                                                  |
 | ------- | ------------------------------------------------------------ |
@@ -119,7 +127,7 @@ Display the results.
 
 ## 5. Operators
 
-Write a program to calculate an expression:
+Calculate an expression:
 
 | Variant | Description                                                                                                          |
 | ------- | -------------------------------------------------------------------------------------------------------------------- |

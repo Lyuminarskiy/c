@@ -377,7 +377,7 @@ else
 
 ## 5. Making a questionnaire
 
-> To read data from standard input one should use a `scanf()` function. Here is an example of reading integer number from a standard input:
+> To read data from a standard input one should use a `scanf()` function. Here is an example of reading integer number from a standard input:
 >
 > ```c
 > printf ("Please, enter your age: ");
