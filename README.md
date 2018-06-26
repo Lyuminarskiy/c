@@ -35,7 +35,7 @@ Write a program to display your name and age. To deal with it one should use a `
 
 Sample output:
 
-```c
+```
 Nick Smith, 19
 ```
 
@@ -64,7 +64,7 @@ Display variables values.
 
 Sample output:
 
-```c
+```
 a = 1
 b = 3.14
 c = 'h'
@@ -246,7 +246,7 @@ else
 > Syntax:
 >
 > ```c
-> enum enumeration_name { FIRST_VALUE, SECOND_VALUE, SPECIFIED_VALUE = 30 };
+> enum enumeration_name { FIRST_VALUE, SECOND_VALUE, SPECIFIED_VALUE = 30 } variable_declaration;
 > ```
 >
 > An enumeration is a list of constant integer values. The first name in an enum has value 0, the next 1, and so on, unless explicit values are specified. Enumerations provide a convenient way to associate constants values with names.
@@ -289,7 +289,7 @@ Take your enumeration from previous task and use it in switch statement like thi
 
 ```c
 enum Boolean { TRUE, FALSE };
-Boolean enum_var = TRUE;
+int enum_var = TRUE;
 
 switch (enum_var)
 {
@@ -309,7 +309,11 @@ So you should print name of your enumeration's constant.
 
 Change `if-Else` statements chain to `switch` statement.
 
-First Variant:
+Variants:
+
+<details>
+<summary>1</summary>
+<hr>
 
 ```c
 int number = 42;
@@ -328,7 +332,12 @@ else
 }
 ```
 
-Second Variant:
+<hr>
+</details>
+
+<details>
+<summary>2</summary>
+<hr>
 
 ```c
 char symbol = 'F';
@@ -347,11 +356,16 @@ else
 }
 ```
 
-Third Variant:
+<hr>
+</details>
+
+<details>
+<summary>3</summary>
+<hr>
 
 ```c
 enum Color { GREEN, BLUE, RED, ORANGE };
-Color color = ORANGE;
+int color = ORANGE;
 
 if (color == GREEN)
 {
@@ -371,7 +385,12 @@ else
 }
 ```
 
-Fourth Variant:
+<hr>
+</details>
+
+<details>
+<summary>4</summary>
+<hr>
 
 ```c
 int number = 200;
@@ -394,7 +413,12 @@ else
 }
 ```
 
-Fifth Variant:
+<hr>
+</details>
+
+<details>
+<summary>5</summary>
+<hr>
 
 ```c
 char symbol = 'Z';
@@ -417,11 +441,16 @@ else
 }
 ```
 
-Sixth Variant:
+<hr>
+</details>
+
+<details>
+<summary>6</summary>
+<hr>
 
 ```c
 enum Animal { CAT, DOG, SNAKE, CROCODILE };
-Animal animal = SNAKE;
+int animal = SNAKE;
 
 if (animal == CAT)
 {
@@ -440,6 +469,9 @@ else
   printf("wrong value");
 }
 ```
+
+<hr>
+</details>
 
 ### 2.5. Making a questionnaire
 
@@ -460,16 +492,30 @@ After finishing questionnaire your program should display number of a correct an
 
 Sample output:
 
-```c
-1. ... (question's text) ?
-  1. ... (first answer's text)
-  2. ... (second answer's text)
-  3. ... (third answer's text)
-  4. ... (fourth answer's text)
+```
+1. First question
+  1. Answer #1
+  2. Answer #2
+  3. Answer #3
+  4. Answer #4
 
-Please, choose the correct answer:
+Please, choose the correct answer: 2
 
-... (other questions below)
+2. Second question
+  1. First answer
+  2. Second answer
+  3. Third answer
+  4. Fourth answer
 
-Your success rate is ... %.
+Please, choose the correct answer: 4
+
+3. Third question
+  1. First answer
+  2. Second answer
+  3. Third answer
+  4. Fourth answer
+
+Please, choose the correct answer: 1
+
+Your success rate is 66 %.
 ```
