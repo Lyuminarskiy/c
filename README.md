@@ -287,8 +287,8 @@ Create your own enumeration:
 Take your enumeration from previous task and use it in switch statement like this:
 
 ```c
-enum boolean { TRUE, FALSE };
-boolean enum_var;
+enum Boolean { TRUE, FALSE };
+Boolean enum_var = TRUE;
 
 switch (enum_var)
 {
@@ -330,13 +330,13 @@ else
 Second Variant:
 
 ```c
-char grade = 'F';
+char symbol = 'F';
 
-if (grade == 'A' || grade ==  'B')
+if (symbol == 'A' || symbol ==  'B')
 {
   printf("A || B");
 }
-else if (grade ==  'C')
+else if (symbol ==  'C')
 {
   printf("C");
 }
@@ -349,8 +349,8 @@ else
 Third Variant:
 
 ```c
-enum colors { GREEN, BLUE, RED, ORANGE };
-colors color = ORANGE;
+enum Color { GREEN, BLUE, RED, ORANGE };
+Color color = ORANGE;
 
 if (color == GREEN)
 {
@@ -363,6 +363,76 @@ else if (color == BLUE)
 else if (color == RED || color == ORANGE)
 {
   printf("RED || ORANGE");
+}
+else
+{
+  printf("wrong value");
+}
+```
+
+Fourth Variant:
+
+```c
+int number = 200;
+
+if (number == 100 || number == 200)
+{
+  printf("100 || 200");
+}
+else if (number == 300 || number == 400 || number == 500)
+{
+  printf("300");
+}
+else if (number == 400 || number == 500)
+{
+  printf("400 || 500");
+}
+else
+{
+  printf("wrong value");
+}
+```
+
+Fifth Variant:
+
+```c
+char symbol = 'Z';
+
+if (symbol == 'Q')
+{
+  printf("Q");
+}
+else if (symbol ==  'R' || symbol ==  'r')
+{
+  printf("R || r");
+}
+else if (symbol ==  'S' || symbol ==  's')
+{
+  printf("S || s");
+}
+else
+{
+  printf("wrong value");
+}
+```
+
+Sixth Variant:
+
+```c
+enum Animal { CAT, DOG, SNAKE, CROCODILE };
+Animal animal = SNAKE;
+
+if (animal == CAT)
+{
+  printf("CAT");
+}
+else if (animal == DOG)
+{
+  printf("BLUE");
+}
+else if (animal == SNAKE || animal == CROCODILE)
+{
+  printf("SNAKE || CROCODILE");
 }
 else
 {
