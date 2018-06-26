@@ -3,33 +3,33 @@
 # C Language Course
 
 Contents:
-- [1. First Lesson](#1-first-lesson)
-  - [1.1. Getting Started](#11-getting-started)
-  - [1.2. Data Types and Declarations](#12-data-types-and-declarations)
-  - [1.3. `If-Else` Statement](#13-if-else-statement)
-  - [1.4. `If-Else` Statements Chain](#14-if-else-statements-chain)
+- [1. First lesson](#1-first-lesson)
+  - [1.1. Getting started](#11-getting-started)
+  - [1.2. Data types and declarations](#12-data-types-and-declarations)
+  - [1.3. `if-else` statement](#13-if-else-statement)
+  - [1.4. `if-else` statements chain](#14-if-else-statements-chain)
   - [1.5. Operators](#15-operators)
-- [2. Second Lesson](#2-second-lesson)
-  - [2.1. Conditional Expression](#21-conditional-expression)
+- [2. Second lesson](#2-second-lesson)
+  - [2.1. Conditional expression](#21-conditional-expression)
   - [2.2. Enumeration](#22-enumeration)
-  - [2.3. `Switch` Statement](#23-switch-statement)
-  - [2.4. From `if-else` to `switch`](#24-from-if-else-to-switch)
+  - [2.3. `switch` statement](#23-switch-statement)
+  - [2.4. From `if-else` statement to `switch` statement](#24-from-if-else-statement-to-switch-statement)
   - [2.5. Making a questionnaire](#25-making-a-questionnaire)
 
 Students:
 
-| Variant | Student Name
-| - | -
-| 1 | *Isha* Naa Ofeibea Dodoo
-| 2 | *Rutendo* Midzi
-| 3 | *Golfam* Mumawar
-| 4 | *Emmanuel* Oyetunji Opeyemi
-| 5 | *Golden* Chebuzor Ubokh
-| 6 | *Janti* Chuks Chidinma
+| Variant | Student Name                |
+| ------- | --------------------------- |
+| 1       | *Isha* Naa Ofeibea Dodoo    |
+| 2       | *Rutendo* Midzi             |
+| 3       | *Golfam* Mumawar            |
+| 4       | *Emmanuel* Oyetunji Opeyemi |
+| 5       | *Golden* Chebuzor Ubokh     |
+| 6       | *Janti* Chuks Chidinma      |
 
-## 1. First Lesson
+## 1. First lesson
 
-### 1.1. Getting Started
+### 1.1. Getting started
 
 Write a program to display your name and age. To deal with it one should use a `printf()` function.
 
@@ -39,28 +39,43 @@ Sample output:
 Nick Smith, 19
 ```
 
-### 1.2. Data Types and Declarations
+### 1.2. Data types and declarations
+
+> A declaration announces the properties of variables; it consists of a type name and a list of variables:
+>
+> ```c
+> int number1, number2;
+> ```
+>
+> Assignment statement sets variables to their initial values:
+>
+> ```c
+> number1 = 42;
+> number2 = 214;
+> ```
+>
+> C Language provides several basic data types:
+> | Data Type | Description                               |
+> | --------- | ----------------------------------------- |
+> | `char`    | A single character.                       |
+> | `int`     | An integer number.                        |
+> | `short`   | An short integer number.                  |
+> | `long`    | An long integer number.                   |
+> | `float`   | A single-precision floating point number. |
+> | `double`  | A double-precision floating point number. |
 
 Write a program to declarate a couple of variables (`a`, `b`, `c`):
 
-| Variant | `a` | `b` | `c`
-| - | - | - | -
-| First | 457 | 6.03 | 'c'
-| Second | 373 | 'x' | 167.314
-| Third | 60.2 | 'e' | 442
-| Fourth | 122.1 | 560 | 'w'
-| Fifth | 'f' | 1132 | 39.6
-| Sixth | 'y' | 77.9 | 2502
+| Variant | `a`   | `b`  | `c`     |
+| ------- | ----- | ---- | ------- |
+| First   | 457   | 6.03 | 'c'     |
+| Second  | 373   | 'x'  | 167.314 |
+| Third   | 60.2  | 'e'  | 442     |
+| Fourth  | 122.1 | 560  | 'w'     |
+| Fifth   | 'f'   | 1132 | 39.6    |
+| Sixth   | 'y'   | 77.9 | 2502    |
 
-Choose according basic data type for each variable:
-
-| Data Type | Description |
-| - | - |
-| `char` | A single character. |
-| `int` | An integer. |
-| `double` | A floating point number. |
-
-Display variables values.
+Choose according basic data type for each variable and display their values.
 
 Sample output:
 
@@ -70,7 +85,7 @@ b = 3.14
 c = 'h'
 ```
 
-### 1.3. `If-Else` Statement
+### 1.3. `if-else` statement
 
 > Syntax:
 >
@@ -94,7 +109,7 @@ Write a program using `if-else` statement:
 
 Display the results.
 
-### 1.4. `If-Else` Statements Chain
+### 1.4. `if-else` statements chain
 
 > Syntax:
 >
@@ -111,14 +126,14 @@ Display the results.
 
 Write a program using `if-else` statements chain:
 
-| Variant | Description
-| - | -
-| First | Create three different integers and find the biggest value.
-| Second | Create three different integers and find the smallest value.
-| Third | Create three different integers and find the biggest value.
-| Fourth | Create three different integers and find the smallest value.
-| Fifth | Create three different integers and find the biggest value.
-| Sixth | Create three different integers and find the smallest value.
+| Variant | Description                                                  |
+| ------- | ------------------------------------------------------------ |
+| First   | Create three different integers and find the biggest value.  |
+| Second  | Create three different integers and find the smallest value. |
+| Third   | Create three different integers and find the biggest value.  |
+| Fourth  | Create three different integers and find the smallest value. |
+| Fifth   | Create three different integers and find the biggest value.  |
+| Sixth   | Create three different integers and find the smallest value. |
 
 Display the results.
 
@@ -126,20 +141,20 @@ Display the results.
 
 Write a program to calculate an expression:
 
-| Variant | Description
-| - | -
-| First | Create three floating point numbers and calculate their average value.
-| Second | Create three floating point numbers and check whether their sum is greater than their multiplication.
-| Third | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.
-| Fourth | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number.
-| Fifth | Create three floating point numbers and check whether all of them are positive or non-positive.
-| Sixth | Create three floating point numbers and check whether all of them are negative or non-negative.
+| Variant | Description                                                                                                          |
+| ------- | -------------------------------------------------------------------------------------------------------------------- |
+| First   | Create three floating point numbers and calculate their average value.                                               |
+| Second  | Create three floating point numbers and check whether their sum is greater than their multiplication.                |
+| Third   | Create three floating point numbers and check if the first two numbers' sum is greater than the third number.        |
+| Fourth  | Create three floating point numbers and check if the first two numbers' multiplication is equal to the third number. |
+| Fifth   | Create three floating point numbers and check whether all of them are positive or non-positive.                      |
+| Sixth   | Create three floating point numbers and check whether all of them are negative or non-negative.                      |
 
 Display the results.
 
-## 2. Second Lesson
+## 2. Second lesson
 
-### 2.1. Conditional Expression
+### 2.1. Conditional expression
 
 > Syntax:
 >
@@ -149,9 +164,13 @@ Display the results.
 >
 > `Expression1` is evaluated first. If it is true (non-zero), then `expression2` is evaluated, and that is the value of conditional expression. Otherwise `expression3` is evaluated.
 
-Change `if-Else` Statement to conditional expression.
+Change `if-else` Statement to conditional expression.
 
-First Variant:
+Variants (click to open):
+
+<details>
+<summary>1</summary>
+<hr>
 
 ```c
 int a = 1, b = 2, result;
@@ -166,7 +185,12 @@ else
 }
 ```
 
-Second Variant:
+<hr>
+</details>
+
+<details>
+<summary>2</summary>
+<hr>
 
 ```c
 double c = 3.14, d = 2.57, result;
@@ -181,7 +205,12 @@ else
 }
 ```
 
-Third Variant:
+<hr>
+</details>
+
+<details>
+<summary>3</summary>
+<hr>
 
 ```c
 bool e = true, f = false, result;
@@ -196,7 +225,12 @@ else
 }
 ```
 
-Fourth Variant:
+<hr>
+</details>
+
+<details>
+<summary>4</summary>
+<hr>
 
 ```c
 char g = 'a', h = 'b', result;
@@ -211,7 +245,12 @@ else
 }
 ```
 
-Fifth Variant:
+<hr>
+</details>
+
+<details>
+<summary>5</summary>
+<hr>
 
 ```c
 bool i = false, j = true, result;
@@ -226,7 +265,12 @@ else
 }
 ```
 
-Sixth Variant:
+<hr>
+</details>
+
+<details>
+<summary>6</summary>
+<hr>
 
 ```c
 double k = 251.2, l = 113.1, result;
@@ -241,6 +285,9 @@ else
 }
 ```
 
+<hr>
+</details>
+
 ### 2.2. Enumeration
 
 > Syntax:
@@ -253,16 +300,16 @@ else
 
 Create your own enumeration:
 
-| Variant | Description
-| - | -
-| First | Enumeration of months.
-| Second | Enumeration of rainbow's colors.
-| Third | Enumeration of some animals.
-| Fourth | Enumeration of some flowers.
-| Fifth | Enumeration of some car brands.
-| Sixth | Enumeration of some phone manufacturers.
+| Variant | Description                              |
+| ------- | ---------------------------------------- |
+| First   | Enumeration of months.                   |
+| Second  | Enumeration of rainbow's colors.         |
+| Third   | Enumeration of some animals.             |
+| Fourth  | Enumeration of some flowers.             |
+| Fifth   | Enumeration of some car brands.          |
+| Sixth   | Enumeration of some phone manufacturers. |
 
-### 2.3. `Switch` Statement
+### 2.3. `switch` statement
 
 > Syntax:
 >
@@ -305,11 +352,11 @@ switch (enum_var)
 
 So you should print name of your enumeration's constant.
 
-### 2.4. From `if-else` to `switch`
+### 2.4. From `if-else` statement to `switch` statement
 
-Change `if-Else` statements chain to `switch` statement.
+Change `if-else` statements chain to `switch` statement.
 
-Variants:
+Variants (click to open):
 
 <details>
 <summary>1</summary>
@@ -475,18 +522,18 @@ else
 
 ### 2.5. Making a questionnaire
 
+> To read data from standard input one should use a `scanf()` function. Here is an example of reading integer number from a standard input:
+>
+> ```c
+> printf ("Please, enter your age: ");
+>
+> int age;
+> scanf ("%d", &age);
+>
+> printf ("It seems like your age is %d.", age);
+> ```
+
 Make a simple questionnaire containing 3-5 questions with 4 possible answers. User should choose one correct answer by typing answer's number, which is integer from 1 to 4.
-
-To read data from standard input one should use a `scanf()` function. Here is an example of reading integer number from a standard input:
-
-```c
-printf ("Please, enter your age: ");
-
-int age;
-scanf ("%d", &age);
-
-printf ("It seems like your age is %d.", age);
-```
 
 After finishing questionnaire your program should display number of a correct answers in percentage.
 
