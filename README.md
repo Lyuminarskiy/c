@@ -13,7 +13,7 @@ Contents:
   - [2.1. Conditional Expression](#21-conditional-expression)
   - [2.2. Enumeration](#22-enumeration)
   - [2.3. `Switch` Statement](#23-switch-statement)
-  - [From `if-else` to `switch`](#from-if-else-to-switch)
+  - [2.4. From `if-else` to `switch`](#24-from-if-else-to-switch)
 
 Students:
 
@@ -304,20 +304,20 @@ switch (enum_var)
 
 So you should print name of your enumeration's constant.
 
-### From `if-else` to `switch`
+### 2.4. From `if-else` to `switch`
 
 Change `if-Else` statements chain to `switch` statement.
 
 First Variant:
 
 ```c
-int number;
+int number = 42;
 
-if (number = 1)
+if (number == 1)
 {
   printf("1");
 }
-else if (number =  2 || number =  3)
+else if (number ==  2 || number ==  3)
 {
   printf("2 || 3");
 }
@@ -330,15 +330,39 @@ else
 Second Variant:
 
 ```c
-char grade;
+char grade = 'F';
 
-if (grade = 'A' || grade =  'B')
+if (grade == 'A' || grade ==  'B')
 {
   printf("A || B");
 }
-else if (grade =  'C')
+else if (grade ==  'C')
 {
   printf("C");
+}
+else
+{
+  printf("wrong value");
+}
+```
+
+Third Variant:
+
+```c
+enum colors { GREEN, BLUE, RED, ORANGE };
+colors color = ORANGE;
+
+if (color == GREEN)
+{
+  printf("GREEN");
+}
+else if (color == BLUE)
+{
+  printf("BLUE");
+}
+else if (color == RED || color == ORANGE)
+{
+  printf("RED || ORANGE");
 }
 else
 {
