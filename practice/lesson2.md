@@ -388,9 +388,13 @@ else
 > printf ("It seems like your age is %d.", age);
 > ```
 
-Make a simple questionnaire containing 3-5 questions with 4 possible answers. User should choose one correct answer by typing answer's number, which is integer from 1 to 4.
+Make a simple questionnaire containing 3 to 5 questions on any topic. Each question should have 4 possible answers. User should choose one answer by typing answer's number, which is integer from 1 to 4.
 
-After finishing questionnaire your program should display number of a correct answers in percentage.
+Algorithm of the program:
+
+1. Show first/next question and its answers.
+2. Ask user to input a desired answer's number.
+3. If the current question is the last one, display number of a correct answers in percentage and finish the program. Otherwise go to the first step.
 
 Sample output:
 
