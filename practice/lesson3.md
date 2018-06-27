@@ -141,14 +141,14 @@ Print the array to the standard output using the `for` loop.
 
 Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using the `for` loop, try to find in the array a number ...
 
-| Variant | Description           |
-| ------- | --------------------- |
-| 1       | ... lesser than `15`. |
-| 2       | ... greater than `4`. |
-| 3       |
-| 4       |
-| 5       |
-| 6       |
+| Variant | Description                                                                                    |
+| ------- | ---------------------------------------------------------------------------------------------- |
+| 1       | ... is greater than `40` and lesser than `46`.                                                 |
+| 2       | ... is greater than `13` and lesser than `17`.                                                 |
+| 3       | ... for which the remainder of the division by `6` equals `5`.                                 |
+| 4       | ... for which the remainder of the division by `9` equals `4`.                                 |
+| 5       | ... for which the remainder of the division by `31` is greater than `16` and lesser than `21`. |
+| 6       | ... for which the remainder of the division by `18` is greater than `4` and lesser than `7`.   |
 
 If the required number was found, display it. Otherwise, display a message saying that the number was not found.
 
