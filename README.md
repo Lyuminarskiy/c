@@ -17,6 +17,7 @@ List of lessons:
 
 1. [Basic data types, operators, and `if-else` statement](practice/lesson1.md)
 2. [Conditional expression, enumeration, and `switch` statement](practice/lesson2.md)
+3. [Loops and arrays](practice/lesson3.md)
 
 ## References
 
