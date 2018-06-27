@@ -7,6 +7,7 @@ Contents:
 - [2. `for` loop](#2-for-loop)
 - [3. `do-while` loop](#3-do-while-loop)
 - [4. Array](#4-array)
+- [5. `break` statement](#5-break-statement)
 
 ## 1. `while` loop
 
@@ -123,13 +124,39 @@ Solve the task using `do-while` loop. Ask user to repeatedly input integer numbe
 
 Declare an array of `10` integer-typed values. Initialize it using the `for` loop. The array must contains ...
 
-| Variant | Description |
-| ------- | ----------- |
-| 1 | ... even numbers starting from `2` onwards (2, 4, 6, ...).
-| 2 | ... odd numbers starting from `1` onwards (1, 3, 5, ...).
-| 3 | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (4, 11, 18, ...).
-| 4 | ... numbers for which the remainder of the division by `13` equals `7`, starting from `7` onwards (7, 20, 33, ...).
-| 5 | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (4, 11, 18, ...).
-| 6 | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (4, 11, 18, ...).
+| Variant | Description                                                                                                         |
+| ------- | ------------------------------------------------------------------------------------------------------------------- |
+| 1       | ... even numbers starting from `2` onwards (`2`, `4`, `6`, ...).                                                          |
+| 2       | ... odd numbers starting from `1` onwards (`1`, `3`, `5`, ...).                                                           |
+| 3       | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (`4`, `11`, `18`, ...).  |
+| 4       | ... numbers for which the remainder of the division by `13` equals `7`, starting from `7` onwards (`7`, `20`, `33`, ...). |
+| 5       |
+| 6       |
 
 Print the array to the standard output using the `for` loop.
+
+## 5. `break` statement
+
+> It is sometimes convenient to be able to exit from a loop other than by testing at the top or bottom. The break statement provides an early exit from `for`, `while`, and `do` loops, just as from `switch`. A break causes the innermost enclosing loop or `switch` to be exited immediately.
+
+Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using the `for` loop, try to find in the array a number ...
+
+| Variant | Description           |
+| ------- | --------------------- |
+| 1       | ... lesser than `15`. |
+| 2       | ... greater than `4`. |
+| 3       |
+| 4       |
+| 5       |
+| 6       |
+
+If the required number was found, display it. Otherwise, display a message saying that the number was not found.
+
+Use the `break` statement to terminate `for` loop once the requires number was found.
+
+Sample output:
+
+```
+Please, input the array: 4 -3 5 8 -1 4 2 0 5 6
+Required number is: 8
+```
