@@ -124,14 +124,14 @@ Solve the task using `do-while` loop. Ask user to repeatedly input integer numbe
 
 Declare an array of `10` integer-typed values. Initialize it using the `for` loop. The array must contains ...
 
-| Variant | Description                                                                                                         |
-| ------- | ------------------------------------------------------------------------------------------------------------------- |
-| 1       | ... even numbers starting from `2` onwards (`2`, `4`, `6`, ...).                                                          |
-| 2       | ... odd numbers starting from `1` onwards (`1`, `3`, `5`, ...).                                                           |
-| 3       | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (`4`, `11`, `18`, ...).  |
-| 4       | ... numbers for which the remainder of the division by `13` equals `7`, starting from `7` onwards (`7`, `20`, `33`, ...). |
-| 5       |
-| 6       |
+| Variant | Description                                                                                                                                                |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1       | ... even numbers starting from `2` onwards (`2`, `4`, `6`, ...).                                                                                           |
+| 2       | ... odd numbers starting from `1` onwards (`1`, `3`, `5`, ...).                                                                                            |
+| 3       | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (`4`, `11`, `18`, ...).                                   |
+| 4       | ... numbers for which the remainder of the division by `13` equals `7`, starting from `7` onwards (`7`, `20`, `33`, ...).                                  |
+| 5       | ... numbers for which the remainder of the division by `15` is greater than `2` and lesser than `6`, starting from `48` onwards (`48`, `49`, `50`, ...).   |
+| 6       | ... numbers for which the remainder of the division by `26` is greater than `14` and lesser than `18`, starting from `41` onwards (`41`, `42`, `43`, ...). |
 
 Print the array to the standard output using the `for` loop.
 
