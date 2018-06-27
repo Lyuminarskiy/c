@@ -1,6 +1,6 @@
 [Back to the homepage](../README.md)
 
-# Loops and array
+# Loops and arrays: part one
 
 Contents:
 - [1. `while` loop](#1-while-loop)
@@ -26,12 +26,12 @@ Solve the task using `while` loop:
 
 | Variant | Description                                                                                                                                                                      |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1       | Create two integer-type variables, `a` and `b`. Increase `a` by `3` and decrease `b` by `1` every cycle as long as `a` lesser than `300` and `b` greater than `5`.               |
-| 2       | Create two integer-type variables, `c` and `d`. Decrease `c` by `2` and increase `d` by `10` every cycle as long as `c` greater than `-500` and `d` lesser than `10000`.         |
-| 3       | Create two integer-type variables, `e` and `f`. Increase `e` by `2` times and decrease `f` by `3` times every cycle as long as `e` lesser than `670` and `f` greater than `-30`. |
-| 4       | Create two integer-type variables, `g` and `h`. Decrease `g` by `4` times and increase `h` by `2` times every cycle as long as `g` greater than `-2` and `h` lesser than `2560`. |
+| 1       | Create two integer-type variables, `a` and `b`. Increase `a` by `3` and decrease `b` by `1` every cycle as long as `a` less than `300` and `b` greater than `5`.               |
+| 2       | Create two integer-type variables, `c` and `d`. Decrease `c` by `2` and increase `d` by `10` every cycle as long as `c` greater than `-500` and `d` less than `10000`.         |
+| 3       | Create two integer-type variables, `e` and `f`. Increase `e` by `2` times and decrease `f` by `3` times every cycle as long as `e` less than `670` and `f` greater than `-30`. |
+| 4       | Create two integer-type variables, `g` and `h`. Decrease `g` by `4` times and increase `h` by `2` times every cycle as long as `g` greater than `-2` and `h` less than `2560`. |
 | 5       | Create integer-type variable `i`. Increase `i` by `1` every cycle as long as the remainder of the division of `i` by `30` is not zero.                                           |
-| 6       | Create integer-type variable `j`. Increase `j` by `1` every cycle as long as the remainder of the division of `j` by `216` is lesser than `121`.                                 |
+| 6       | Create integer-type variable `j`. Increase `j` by `1` every cycle as long as the remainder of the division of `j` by `216` is less than `121`.                                 |
 
 You can initialize variables either by integer constant in code or by reading data from a standard input.
 
@@ -69,8 +69,8 @@ Solve the task using `for` loop:
 | 2       | Print all odd integer numbers from `300` to `500`.                                                                                      |
 | 3       | Print all integer numbers from `-100` to `100`, for which the remainder of the division by `5` equals `3`.                              |
 | 4       | Print all integer numbers from `-500` to `-200`, for which the remainder of the division by `8` equals `5`.                             |
-| 5       | Print all integer numbers from `100` to `300`, for which the remainder of the division by `13` is greater than `3` and lesser than `8`. |
-| 6       | Print all integer numbers from `50` to `100`, for which the remainder of the division by `9` is greater than `2` and lesser than `7`.   |
+| 5       | Print all integer numbers from `100` to `300`, for which the remainder of the division by `13` is greater than `3` and less than `8`. |
+| 6       | Print all integer numbers from `50` to `100`, for which the remainder of the division by `9` is greater than `2` and less than `7`.   |
 
 ## 3. `do-while` loop
 
@@ -99,7 +99,7 @@ Solve the task using `do-while` loop. Ask user to repeatedly input integer numbe
 | 5       | ... if the next entered number is greater than `100`.                           |
 | 6       | ... when the count of all entered numbers becomes greater than `5`.             |
 
-## 4. Array
+## 4. Arrays
 
 > To declare an array one should use a square brackets. Number in the square brackets means the size of the array:
 >
@@ -130,8 +130,8 @@ Declare an array of `10` integer-typed values. Initialize it using the `for` loo
 | 2       | ... odd numbers starting from `1` onwards (`1`, `3`, `5`, ...).                                                                                            |
 | 3       | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (`4`, `11`, `18`, ...).                                   |
 | 4       | ... numbers for which the remainder of the division by `13` equals `7`, starting from `7` onwards (`7`, `20`, `33`, ...).                                  |
-| 5       | ... numbers for which the remainder of the division by `15` is greater than `2` and lesser than `6`, starting from `48` onwards (`48`, `49`, `50`, ...).   |
-| 6       | ... numbers for which the remainder of the division by `26` is greater than `14` and lesser than `18`, starting from `41` onwards (`41`, `42`, `43`, ...). |
+| 5       | ... numbers for which the remainder of the division by `15` is greater than `2` and less than `6`, starting from `48` onwards (`48`, `49`, `50`, ...).   |
+| 6       | ... numbers for which the remainder of the division by `26` is greater than `14` and less than `18`, starting from `41` onwards (`41`, `42`, `43`, ...). |
 
 Print the array to the standard output using the `for` loop.
 
@@ -143,16 +143,16 @@ Declare an array of `10` integer-typed values. Initialize it either by integer c
 
 | Variant | Description                                                                                    |
 | ------- | ---------------------------------------------------------------------------------------------- |
-| 1       | ... is greater than `40` and lesser than `46`.                                                 |
-| 2       | ... is greater than `13` and lesser than `17`.                                                 |
+| 1       | ... is greater than `40` and less than `46`.                                                 |
+| 2       | ... is greater than `13` and less than `17`.                                                 |
 | 3       | ... for which the remainder of the division by `6` equals `5`.                                 |
 | 4       | ... for which the remainder of the division by `9` equals `4`.                                 |
-| 5       | ... for which the remainder of the division by `31` is greater than `16` and lesser than `21`. |
-| 6       | ... for which the remainder of the division by `18` is greater than `4` and lesser than `7`.   |
+| 5       | ... for which the remainder of the division by `31` is greater than `16` and less than `21`. |
+| 6       | ... for which the remainder of the division by `18` is greater than `4` and less than `7`.   |
 
 If the required number was found, display it. Otherwise, display a message saying that the number was not found.
 
-Use the `break` statement to terminate `for` loop once the requires number was found.
+Use the `break` statement to terminate `for` loop once the required number was found.
 
 Sample output:
 

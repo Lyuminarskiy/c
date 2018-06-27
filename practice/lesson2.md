@@ -1,6 +1,6 @@
 [Back to the homepage](../README.md)
 
-# Conditional expression, enumeration, and `switch` statement
+# Conditional expression, enumerations, and `switch` statement
 
 Contents:
 - [1. Conditional expression](#1-conditional-expression)
@@ -143,7 +143,7 @@ else
 <hr>
 </details>
 
-## 2. Enumeration
+## 2. Enumerations
 
 > Syntax:
 >

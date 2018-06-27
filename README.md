@@ -16,8 +16,9 @@ List of students ([work progress](https://docs.google.com/spreadsheets/d/1uk7V20
 List of lessons:
 
 1. [Basic data types, operators, and `if-else` statement](practice/lesson1.md)
-2. [Conditional expression, enumeration, and `switch` statement](practice/lesson2.md)
-3. [Loops and arrays](practice/lesson3.md)
+2. [Conditional expression, enumerations, and `switch` statement](practice/lesson2.md)
+3. [Loops and arrays: part one](practice/lesson3.md)
+4. [Loops and arrays: part two](practice/lesson4.md)
 
 ## References
 
