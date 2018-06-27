@@ -4,6 +4,7 @@
 
 Contents:
 - [1. `while` loop](#1-while-loop)
+- [`for` loop](#for-loop)
 
 ## 1. `while` loop
 
@@ -30,3 +31,29 @@ Solve the task using `while` loop:
 | 6       | Create integer-type variable `j`. Increase `j` by `1` every cycle until the remainder of the division of `j` by `216` is lesser than `121`.                                 |
 
 You can initialize variables either by integer constant in code or by reading data from a standard input.
+
+## `for` loop
+
+> Syntax:
+>
+> ```c
+> for (expression1; expression2; expression3)
+> {
+>   statement;
+> }
+> ```
+>
+> This `for` loop is equivalent to `while` loop shown below:
+>
+> ```c
+> expression1;
+> while (expression2)
+> {
+>   statement;
+>   expression3;
+> }
+> ```
+>
+> So, the `for` loop is a generalization of the `while` loop.
+>
+> The first part of the loop, `expression1`, is the initialization. The second part, `expression2`, is the test or condition tha controls the loop (the same as for `while` loop). This condition is evaluated. If it is `true` (non-zero), the body  of the loop is executed. Then the increment step, `expression3`, is executed, and the condition re-evaluated. The loop terminates id the condition has become `false` (zero).
