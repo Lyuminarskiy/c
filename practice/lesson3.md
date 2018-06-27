@@ -71,8 +71,6 @@ Solve the task using `for` loop:
 | 5       | Print all integer numbers from `100` to `300`, for which the remainder of the division by `13` is greater than `3` and lesser than `8`. |
 | 6       | Print all integer numbers from `50` to `100`, for which the remainder of the division by `9` is greater than `2` and lesser than `7`.   |
 
-You can initialize variables either by integer constant in code or by reading data from a standard input.
-
 ## 3. `do-while` loop
 
 > The `while` and `for` loops test the termination condition at the top. By contrast, `do-while` loop, tests at the bottom after making each pass through the loop body. **The body is executed at least once.**
@@ -89,7 +87,7 @@ You can initialize variables either by integer constant in code or by reading da
 >
 > The `statement` is executed, then `expression` is evaluated. If it's `true` (non-zero), `statement` is evaluated again, and so on. When the expression becomes false, the loop terminates.
 
-Solve the task using `do-while` loop. Ask user to repeatedly input integer numbers. Terminate the loop ... :
+Solve the task using `do-while` loop. Ask user to repeatedly input integer numbers. Terminate the loop ...
 
 | Variant | Description                                                                     |
 | ------- | ------------------------------------------------------------------------------- |
@@ -123,3 +121,15 @@ Solve the task using `do-while` loop. Ask user to repeatedly input integer numbe
 >
 > Note that the number in square brackets must be no less than the number of initial values. If it is larger, then uninitialized elements remain in the array.
 
+Declare an array of `10` integer-typed values. Initialize it using the `for` loop. The array must contains ...
+
+| Variant | Description |
+| ------- | ----------- |
+| 1 | ... even numbers starting from `2` onwards (2, 4, 6, ...).
+| 2 | ... odd numbers starting from `1` onwards (1, 3, 5, ...).
+| 3 | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (4, 11, 18, ...).
+| 4 | ... numbers for which the remainder of the division by `13` equals `7`, starting from `7` onwards (7, 20, 33, ...).
+| 5 | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (4, 11, 18, ...).
+| 6 | ... numbers for which the remainder of the division by `7` equals `4`, starting from `4` onwards (4, 11, 18, ...).
+
+Print the array to the standard output using the `for` loop.
