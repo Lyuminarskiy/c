@@ -37,12 +37,6 @@ Please, input the array: 4 -3 5 8 -1 4 2 0 5 6
 A number of values found: 2
 ```
 
-1. готово
-2. подсчёт суммы элементов, удовлетворяющих условию
-3. поиск и замена нескольких элементов, удовлетворяющих условию
-4. from while to for
-5. from for to while
-
 ## 2. Search and summation
 
 Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using either `while` loop or `for` loop find the sum of values in the array ...
