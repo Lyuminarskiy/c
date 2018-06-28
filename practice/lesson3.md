@@ -122,7 +122,7 @@ Solve the task using `do-while` loop. Ask user to repeatedly input integer numbe
 >
 > Note that the number in square brackets must be no less than the number of initial values. If it is larger, then uninitialized elements remain in the array.
 
-Declare an array of `10` integer-typed values. Initialize it using the `while` loop. The array must contains ...
+Declare an array of `10` integer-typed values. Initialize it using the `while` loop. The array must contain ...
 
 | Variant | Description                                                                                                                                              |
 | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
