@@ -202,7 +202,23 @@ Variants (click to open):
 <hr>
 
 ```c
+int c = 51;
+int d = 23;
 
+while (d - c < 100)
+{
+  if (c >= d)
+  {
+    printf("c >= d\n");
+  }
+  else
+  {
+    printf("c < d\n");
+  }
+
+  c--;
+  d++;
+}
 ```
 
 <hr>
@@ -213,6 +229,16 @@ Variants (click to open):
 <hr>
 
 ```c
+int e = 4;
+int f = -5;
+
+while (2 * e * e - 4 * f <= 243 && e >= f)
+{
+  printf("e = %d, f = %d\n", e, f);
+
+  e += 2;
+  f++;
+}
 ```
 
 <hr>
@@ -223,6 +249,18 @@ Variants (click to open):
 <hr>
 
 ```c
+int a = 0;
+int b = 200;
+
+while (a + b < 300)
+{
+  if (a % 2 == 1)
+  {
+    printf("a = %d\n", a);
+  }
+
+  a += 3;
+}
 ```
 
 <hr>
@@ -233,6 +271,16 @@ Variants (click to open):
 <hr>
 
 ```c
+int i = 0;
+int j = 0;
+
+while (i < 100 && j / 3 < 50)
+{
+  printf("i = %d, j = %d\n", i, j);
+
+  i++;
+  j += 2;
+}
 ```
 
 <hr>
@@ -243,6 +291,13 @@ Variants (click to open):
 <hr>
 
 ```c
+char c = 'a';
+
+while (c <= 'z')
+{
+  printf("%c = %d\n", c, c);
+  c++;
+}
 ```
 
 <hr>
@@ -253,6 +308,24 @@ Variants (click to open):
 <hr>
 
 ```c
+char c = 'A';
+
+while (c <= 'z')
+{
+  switch (c)
+  {
+    case 'f':
+      printf("f\n");
+      break;
+
+    case 'Q':
+    case 'q':
+      printf("Q || q\n");
+      break;
+  }
+
+  c++;
+}
 ```
 
 <hr>
