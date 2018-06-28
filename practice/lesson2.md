@@ -4,7 +4,7 @@
 
 Contents:
 - [1. Conditional expression](#1-conditional-expression)
-- [2. Enumeration](#2-enumeration)
+- [2. Enumerations](#2-enumerations)
 - [3. `switch` statement](#3-switch-statement)
 - [4. From `if-else` statement to `switch` statement](#4-from-if-else-statement-to-switch-statement)
 - [5. Making a questionnaire](#5-making-a-questionnaire)
@@ -19,7 +19,7 @@ Contents:
 >
 > `Expression1` is evaluated first. If it is true (non-zero), then `expression2` is evaluated, and that is the value of conditional expression. Otherwise `expression3` is evaluated.
 
-Change `if-else` Statement to conditional expression.
+Replace `if-else` statement with conditional expression.
 
 Variants (click to open):
 
@@ -209,7 +209,7 @@ So you should print name of your enumeration's constant.
 
 ## 4. From `if-else` statement to `switch` statement
 
-Change `if-else` statements chain to `switch` statement.
+Replace `if-else` statements chain with `switch` statement.
 
 Variants (click to open):
 
