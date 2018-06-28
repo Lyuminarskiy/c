@@ -66,9 +66,9 @@ Solve the task using `for` loop:
 | Variant | Description                                                                                                                           |
 | ------- | ------------------------------------------------------------------------------------------------------------------------------------- |
 | 1       | Print all even integer numbers from `1` to `1000`.                                                                                    |
-| 2       | Print all odd integer numbers from `300` to `500`.                                                                                    |
-| 3       | Print all integer numbers from `-100` to `100`, for which the remainder of the division by `5` equals `3`.                            |
-| 4       | Print all integer numbers from `-500` to `-200`, for which the remainder of the division by `8` equals `5`.                           |
+| 2       | Print all odd integer numbers from `300` to `500`.
+| 3       | Print all integer numbers from `-100` to `100`, for which the remainder of the division by `5` equals `3` or `-3`.                            |
+| 4       | Print all integer numbers from `-500` to `-200`, for which the remainder of the division by `8` equals `-5`.                           |
 | 5       | Print all integer numbers from `100` to `300`, for which the remainder of the division by `13` is greater than `3` and less than `8`. |
 | 6       | Print all integer numbers from `50` to `100`, for which the remainder of the division by `9` is greater than `2` and less than `7`.   |
 
