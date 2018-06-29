@@ -7,6 +7,7 @@ Contents:
 - [2. Searching for a characters](#2-searching-for-a-characters)
 - [3. Counting characters](#3-counting-characters)
 - [4. Replacing characters](#4-replacing-characters)
+- [5. Calculation of the string's weight](#5-calculation-of-the-strings-weight)
 
 ## 1. String constants
 
@@ -101,6 +102,8 @@ Read a string from a standard input. Determine whether there is at least one cha
 
 If the required character was found, display it. Otherwise, display a message saying that the no one characters was found.
 
+Remember that at the end of the line there is always a null character `'\0'`. Remembering this, you will be able to determine the end of the line.
+
 ## 3. Counting characters
 
 Read a string from a standard input. Determine how many in the string of characters ...
@@ -120,8 +123,8 @@ If a character satisfying the conditions was found, display it immediately. At t
 
 Read a string from a standard input. Replace in the string all of the characters ...
 
-| Variant | Description              |
-| ------- | ------------------------ |
+| Variant | Description                 |
+| ------- | --------------------------- |
 | 1       | ... from `'a'` to `'d'` ... |
 | 2       | ... from `'e'` to `'h'` ... |
 | 3       | ... from `'i'` to `'l'` ... |
@@ -136,4 +139,85 @@ Sample output:
 ```
 Please, input the string: Hello, world.
 Modified string: HeLLo, worLd.
+```
+
+## 5. Calculation of the string's weight
+
+Calculate the weight of the string based on the sum of the individual characters' weights. The weights of the individual characters for each variant are shown below. If the weight for the character is not specified, then consider it equal to zero.
+
+When calculating the weight of the individual characters, try to use a `switch` statement instead of `if-else` statements chain.
+
+Variants (click to open):
+
+<details>
+<summary>1</summary>
+<hr>
+
+| Character           | Weight |
+| ------------------- | ------ |
+| `'f'`, `'g'`, `'Z'` | `-2`   |
+| `'h'`               | `+3`   |
+| `'i'`,`'j'`         | `+4`   |
+| `'t'`,`'T'`         | `-1`   |
+
+<hr>
+</details>
+
+<details>
+<summary>2</summary>
+<hr>
+
+| Character           | Weight |
+| ------------------- | ------ |
+| `'A'`, `'a'`        | `+9`   |
+| `'s'`, `'u'`, `'v'` | `-4`   |
+| `'z'`,`'R'`         | `+5`   |
+| `'Q'`,`'r'`         | `-1`   |
+
+<hr>
+</details>
+
+<details>
+<summary>3</summary>
+<hr>
+
+
+
+<hr>
+</details>
+
+<details>
+<summary>4</summary>
+<hr>
+
+
+
+<hr>
+</details>
+
+<details>
+<summary>5</summary>
+<hr>
+
+
+
+<hr>
+</details>
+
+<details>
+<summary>6</summary>
+<hr>
+
+
+
+<hr>
+</details>
+
+At the end, display the string's weight.
+
+Sample output:
+
+```
+Please, input the string: Hello, world.
+The string's weight: 25
 ```
