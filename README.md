@@ -19,7 +19,7 @@ List of lessons:
 2. [Conditional expression, enumerations, and `switch` statement](practice/lesson2.md)
 3. [Loops and arrays: part one](practice/lesson3.md)
 4. [Loops and arrays: part two](practice/lesson4.md)
-5. [Strings: part one](practice/lesson5.md)
+5. [Strings](practice/lesson5.md)
 
 ## References
 
