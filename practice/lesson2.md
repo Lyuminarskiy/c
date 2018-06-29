@@ -17,7 +17,7 @@ Contents:
 > expression1 ? expression2 : expression3;
 > ```
 >
-> `Expression1` is evaluated first. If it is true (non-zero), then `expression2` is evaluated, and that is the value of conditional expression. Otherwise `expression3` is evaluated.
+> `expression1` is evaluated first. If it is true (non-zero), then `expression2` is evaluated, and that is the value of conditional expression. Otherwise `expression3` is evaluated.
 
 Replace `if-else` statement with conditional expression.
 
