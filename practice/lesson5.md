@@ -6,6 +6,7 @@ Contents:
 - [1. String constants](#1-string-constants)
 - [2. Searching for a characters](#2-searching-for-a-characters)
 - [3. Counting characters](#3-counting-characters)
+- [4. Replacing characters](#4-replacing-characters)
 
 ## 1. String constants
 
@@ -112,3 +113,27 @@ Read a string from a standard input. Determine how many in the string of charact
 | 4       | ... from `'m'` to `'q'` and from `'r'` to `'u'`. |
 | 5       | ... from `'r'` to `'u'` and from `'v'` to `'z'`. |
 | 6       | ... from `'v'` to `'z'` and from `'a'` to `'d'`. |
+
+If a character satisfying the conditions was found, display it immediately. At the end, display the number of characters found.
+
+## 4. Replacing characters
+
+Read a string from a standard input. Replace in the string all of the characters ...
+
+| Variant | Description              |
+| ------- | ------------------------ |
+| 1       | ... from `'a'` to `'d'` ... |
+| 2       | ... from `'e'` to `'h'` ... |
+| 3       | ... from `'i'` to `'l'` ... |
+| 4       | ... from `'m'` to `'q'` ... |
+| 5       | ... from `'r'` to `'u'` ... |
+| 6       | ... from `'v'` to `'z'` ... |
+
+... by their uppercase. At the end, display the modified string.
+
+Sample output:
+
+```
+Please, input the string: Hello, world.
+Modified string: HeLLo, worLd.
+```
