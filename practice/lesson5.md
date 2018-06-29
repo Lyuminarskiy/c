@@ -4,6 +4,8 @@
 
 Contents:
 - [1. String constants](#1-string-constants)
+- [2. Searching for a characters](#2-searching-for-a-characters)
+- [3. Counting characters](#3-counting-characters)
 
 ## 1. String constants
 
@@ -82,3 +84,31 @@ What is your age?
 
 Long time no see you, Nick Smith. You already 19 years old!
 ```
+
+## 2. Searching for a characters
+
+Read a string from a standard input. Determine whether there is at least one character in the string ...
+
+| Variant | Description              |
+| ------- | ------------------------ |
+| 1       | ... from `'a'` to `'d'`. |
+| 2       | ... from `'e'` to `'h'`. |
+| 3       | ... from `'i'` to `'l'`. |
+| 4       | ... from `'m'` to `'q'`. |
+| 5       | ... from `'r'` to `'u'`. |
+| 6       | ... from `'v'` to `'z'`. |
+
+If the required character was found, display it. Otherwise, display a message saying that the no one characters was found.
+
+## 3. Counting characters
+
+Read a string from a standard input. Determine how many in the string of characters ...
+
+| Variant | Description                                      |
+| ------- | ------------------------------------------------ |
+| 1       | ... from `'a'` to `'d'` and from `'e'` to `'h'`. |
+| 2       | ... from `'e'` to `'h'` and from `'i'` to `'l'`. |
+| 3       | ... from `'i'` to `'l'` and from `'m'` to `'q'`. |
+| 4       | ... from `'m'` to `'q'` and from `'r'` to `'u'`. |
+| 5       | ... from `'r'` to `'u'` and from `'v'` to `'z'`. |
+| 6       | ... from `'v'` to `'z'` and from `'a'` to `'d'`. |
