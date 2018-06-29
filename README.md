@@ -15,11 +15,16 @@ List of students ([work progress](https://docs.google.com/spreadsheets/d/1uk7V20
 
 List of lessons:
 
-1. [Basic data types, operators, and `if-else` statement](practice/lesson1.md).
-2. [Conditional expression, enumerations, and `switch` statement](practice/lesson2.md).
-3. [Loops and arrays: part one](practice/lesson3.md).
-4. [Loops and arrays: part two](practice/lesson4.md).
-5. [Strings](practice/lesson5.md).
+1. [Basic data types, operators, and `if-else` statement](practice/lesson01.md).
+2. [Conditional expression, enumerations, and `switch` statement](practice/lesson02.md).
+3. [Loops and arrays: part one](practice/lesson03.md).
+4. [Loops and arrays: part two](practice/lesson04.md).
+5. [Strings](practice/lesson05.md).
+6. [Multidimensional arrays](practice/lesson06.md).
+7. [Functions](practice/lesson07.md).
+8. [Standard library: `<stdio.h>`](practice/lesson08.md)
+9. [Standard library: `<string.h>`](practice/lesson09.md)
+10. [Combining everything together](practice/lesson10.md)
 
 ## References
 
