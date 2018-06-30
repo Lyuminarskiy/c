@@ -7,27 +7,32 @@ Contents:
 
 ## 1. First steps
 
-C provides rectangular multidimensional arrays. In C, a two-dimensional array is really a one-dimensional array, each of whose elements is an array.
+> C provides rectangular multidimensional arrays. In C, a two-dimensional array is really a one-dimensional array, each of whose elements is an array.
+>
+> An array is initialized by a list of initializers in braces. Each row of two-dimensional array is initialized by a corresponding sub-list.
+>
+> Here is an example of creating and initializing a two-dimensional array of size `3` by `3`:
+>
+> ```c
+> int matrix[3][3] =
+> {
+>   { 1, 2, 3 },
+>   { 4, 5, 6 },
+>   { 7, 8, 9 }
+> };
+> ```
+>
+> Now, you can access the array's element in the following way:
+>
+> ```c
+> // Changing the value of the element.
+> matrix[0][2] = 4;
+>
+> // Printing the value of the element.
+> printf("%d", matrix[0][2]);
+> ```
 
-An array is initialized by a list of initializers in braces. Each row of two-dimensional array is initialized by a corresponding sub-list.
-
-Here is an example of creating and initializing a two-dimensional array of size `3` by `3`:
-
-```c
-int matrix[3][3] =
-{
-  { 1, 2, 3 },
-  { 4, 5, 6 },
-  { 7, 8, 9 }
-};
-```
-
-Now, you can access the array's element in the following way:
-
-```c
-matrix[0][2] = 4;
-printf("%d", matrix[0][2]);
-```
+Create an array ...
 
 Variants (click to open):
 
