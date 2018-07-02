@@ -68,7 +68,10 @@ Ask for user's name, surname, and age. After receiving all the data, print a gre
 All the messages should be declared as a characters array, for example:
 
 ```c
-char name_question[] = "What is your name?";
+int age = 19;
+char greeting_message[] = "You already %d years old!";
+
+printf(greeting_message, age);
 ```
 
 
