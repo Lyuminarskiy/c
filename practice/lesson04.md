@@ -15,7 +15,7 @@ Contents:
 >
 > In the `while` and `do-while`, this means that the test part is executed immediately. In the `for`, control passes to the increment step. The `continue` statement applies only to loops, not to `switch`. A `continue` inside a `switch` inside a loop causes the next loop iteration.
 
-Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using the `for` loop, find the number of values in the array ...
+Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using the `for` loop, find the number of the values in the array ...
 
 | Variant | Description                                                                                  |
 | ------- | -------------------------------------------------------------------------------------------- |
@@ -39,7 +39,7 @@ A number of values found: 2
 
 ## 2. Search and summation
 
-Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using either `while` loop or `for` loop find the sum of values in the array ...
+Declare an array of `10` integer-typed values. Initialize it either by integer constants in code or by reading data from a standard input. Using either `while` loop or `for` loop find the sum of the values in the array ...
 
 | Variant | Description                                                                                  |
 | ------- | -------------------------------------------------------------------------------------------- |

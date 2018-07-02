@@ -138,7 +138,7 @@ Using two `for` loops (one of which is nested) display the values of a two-dimen
 
 ## 2. Search and summation
 
-Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Find the sum of values in the array ...
+Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Find the sum of the values in the array ...
 
 | Variant | Description                                                                                  |
 | ------- | -------------------------------------------------------------------------------------------- |
@@ -193,7 +193,7 @@ Modified array:
 
 ## 4. Search and counting
 
-Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Find the count of values in the array ...
+Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Find the count of the values in the array ...
 
 | Variant | Description                                                                                  |
 | ------- | -------------------------------------------------------------------------------------------- |
@@ -217,7 +217,7 @@ The number of values: 2
 
 ## 5. Matrix and diagonal
 
-Declare a two-dimensional array of size `5` by `5`. Initialize it either by integer constants in code or by reading data from a standard input. Find the sum of the values in the array ...
+Declare a two-dimensional array of size `5` by `5`. Initialize it either by integer constants in code or by reading data from a standard input. Using two `for` loops (one of which is nested) find the sum of the values in the array ...
 
 | Variant | Description                           |
 | ------- | ------------------------------------- |
@@ -238,5 +238,5 @@ The array:
  0  4  5 -9  3
  2  0  0  8  1
 
-The sum: 15
+The sum: 27
 ```
