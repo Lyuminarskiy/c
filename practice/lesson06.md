@@ -11,7 +11,7 @@ Contents:
 >
 > An array is initialized by a list of initializers in braces. Each row of two-dimensional array is initialized by a corresponding sub-list.
 >
-> Here is an example of creating and initializing a two-dimensional array of size `3` by `3`:
+> Here is an example of declaring and initializing a two-dimensional array of size `3` by `3`:
 >
 > ```c
 > int matrix[3][3] =
@@ -32,13 +32,21 @@ Contents:
 > printf("%d", matrix[0][2]);
 > ```
 
-Create an array ...
+Create a two-dimensional array ...
 
 Variants (click to open):
 
 <details>
 <summary>1</summary>
 <hr>
+
+of size `3` by `3` and initialize it with the following values:
+
+```
+ 3 -5  2
+ 4  1  8
+-3  2  1
+```
 
 <hr>
 </details>
@@ -47,12 +55,30 @@ Variants (click to open):
 <summary>2</summary>
 <hr>
 
+of size `3` by `5` and initialize it with the following values:
+
+```
+ 3 -5  2  4  9
+ 4  1  8 -3  7
+-3  2  1  8 -4
+```
+
 <hr>
 </details>
 
 <details>
 <summary>3</summary>
 <hr>
+
+of size `5` by `3` and initialize it with the following values:
+
+```
+ 3 -5  2
+ 4  1  8
+-3  2  1
+-5  7  9
+ 4  3  2
+```
 
 <hr>
 </details>
@@ -61,12 +87,28 @@ Variants (click to open):
 <summary>4</summary>
 <hr>
 
+of size `3` by `3` and initialize it with the following values:
+
+```
+ 8  2  4
+-5 -4  8
+ 3  1  8
+```
+
 <hr>
 </details>
 
 <details>
 <summary>5</summary>
 <hr>
+
+of size `3` by `5` and initialize it with the following values:
+
+```
+ 4  2 -5  3  8
+-4 -1  2 -5 -4
+ 1  0  9  3  4
+```
 
 <hr>
 </details>
@@ -75,5 +117,17 @@ Variants (click to open):
 <summary>6</summary>
 <hr>
 
+of size `5` by `3` and initialize it with the following values:
+
+```
+ 0  1  2
+ 4  9 -1
+ 5  8 -2
+ 0  0  4
+ 6  5  3
+```
+
 <hr>
 </details>
+
+Using two `for` loops (one of which is nested) display the values of a two-dimensional array.
