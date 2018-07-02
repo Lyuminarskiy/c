@@ -7,6 +7,7 @@ Contents:
 - [2. Search and summation](#2-search-and-summation)
 - [3. Search and replacement](#3-search-and-replacement)
 - [4. Search and counting](#4-search-and-counting)
+- [5. Matrix and diagonal](#5-matrix-and-diagonal)
 
 ## 1. First steps
 
@@ -212,4 +213,30 @@ An array:
  3  1  8
 
 The number of values: 2
+```
+
+## 5. Matrix and diagonal
+
+Declare a two-dimensional array of size `5` by `5`. Initialize it either by integer constants in code or by reading data from a standard input. Find the sum of the values in the array ...
+
+| Variant | Description                           |
+| ------- | ------------------------------------- |
+| 1       | ... that are above the main diagonal. |
+| 2       | ... that are below the main diagonal. |
+| 3       | ... that are above the antidiagonal.  |
+| 4       | ... that are below the antidiagonal.  |
+| 5       | ... that are on the main diagonal.    |
+| 6       | ... that are on the antidiagonal.     |
+
+At the end, display the sum of the values.
+
+```
+The array:
+ 3 -5  2  4  9
+ 4  1  8 -3  7
+-3  2  1  8 -4
+ 0  4  5 -9  3
+ 2  0  0  8  1
+
+The sum: 15
 ```
