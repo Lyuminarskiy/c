@@ -4,6 +4,9 @@
 
 Contents:
 - [1. First steps](#1-first-steps)
+- [2. Search and summation](#2-search-and-summation)
+- [3. Search and replacement](#3-search-and-replacement)
+- [4. Search and counting](#4-search-and-counting)
 
 ## 1. First steps
 
@@ -32,7 +35,7 @@ Contents:
 > printf("%d", matrix[0][2]);
 > ```
 
-Create a two-dimensional array ...
+Declare a two-dimensional array ...
 
 Variants (click to open):
 
@@ -131,3 +134,82 @@ of size `5` by `3` and initialize it with the following values:
 </details>
 
 Using two `for` loops (one of which is nested) display the values of a two-dimensional array.
+
+## 2. Search and summation
+
+Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Find the sum of values in the array ...
+
+| Variant | Description                                                                                  |
+| ------- | -------------------------------------------------------------------------------------------- |
+| 1       | ... that are greater than `40` and less than `46`.                                           |
+| 2       | ... that are greater than `13` and less than `17`.                                           |
+| 3       | ... for which the remainder of the division by `14` is greater than `2` and less than `5`.   |
+| 4       | ... for which the remainder of the division by `22` is greater than `12` and less than `17`. |
+| 5       | ... that are even.                                                                           |
+| 6       | ... that are odd.                                                                            |
+
+At the end, display the sum.
+
+Sample output:
+
+```
+An array:
+ 8  2  4
+-5 -4  8
+ 3  1  8
+
+The sum: 15
+```
+
+## 3. Search and replacement
+
+Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Replace all of the ...
+
+| Variant | Description                             |
+| ------- | --------------------------------------- |
+| 1       | ... positive values by their negation.  |
+| 2       | ... negative values by their negation.  |
+| 3       | ... positive values by their square.    |
+| 4       | ... negative values by their cube.      |
+| 5       | ... even values in the array with zero. |
+| 6       | ... odd values in the array with zero.  |
+
+At the end, display the modified array.
+
+Sample output:
+
+```
+An array:
+ 8  2  4
+-5 -4  8
+ 3  1  8
+
+Modified array:
+ 3  1  8
+ 8  2  4
+-5 -4  8
+```
+
+## 4. Search and counting
+
+Declare a two-dimensional array of size `3` by `3`. Initialize it either by integer constants in code or by reading data from a standard input. Find the count of values in the array ...
+
+| Variant | Description                                                                                  |
+| ------- | -------------------------------------------------------------------------------------------- |
+| 1       | ... for which the remainder of the division by `14` is greater than `2` and less than `5`.   |
+| 2       | ... for which the remainder of the division by `22` is greater than `12` and less than `17`. |
+| 3       | ... that are even.                                                                           |
+| 4       | ... that are odd.                                                                            |
+| 5       | ... that are greater than `40` and less than `46`.                                           |
+| 6       | ... that are greater than `13` and less than `17`.                                           |
+
+At the end, display the number of values found.
+
+```
+An array:
+ 8  2  4
+-5 -4  8
+ 3  1  8
+
+The number of values: 2
+```
