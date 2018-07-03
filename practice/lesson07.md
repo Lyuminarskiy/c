@@ -241,7 +241,7 @@ Create a function:
 int count(int array[][5], int rows_number);
 ```
 
-The function should find the count of the values in the a two-dimensional 5-columns array ...
+The function should find the count of the values in the a two-dimensional 5-columns array for the values ...
 
 | Variant | Description                                                                                  |
 | ------- | -------------------------------------------------------------------------------------------- |
@@ -269,7 +269,7 @@ Create a function:
 double average(int array[][5], int rows_number);
 ```
 
-The function should find the average value of the values in a two-dimensional 5-columns array ...
+The function should find the average value in a two-dimensional 5-columns array for the values ...
 
 | Variant | Description                           |
 | ------- | ------------------------------------- |
