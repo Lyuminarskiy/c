@@ -7,6 +7,7 @@ Contents:
 - [2. Searching for a value](#2-searching-for-a-value)
 - [3. Search and replacement](#3-search-and-replacement)
 - [4. Search and counting](#4-search-and-counting)
+- [5. Matrix and diagonal](#5-matrix-and-diagonal)
 
 ## 1. Creating your first function
 
@@ -198,7 +199,7 @@ Create a function:
 
 ```c
 /**
- * Searches for values in the array that satisfy the condition, and replaces them.
+ * Searches for values (that satisfy the condition) in the array, and replaces them.
  *
  * @param array An array.
  * @param size The size of an array.
@@ -224,14 +225,14 @@ Demonstrate at least three examples of using the `filter()` function in the `mai
 > If a two-dimensional array is to be passed to a function, the parameter declaration in the function must include the number of columns (the number of rows is irrelevant):
 >
 > ```c
-> double average(int array[][5]);
+> double average(int array[][3]);
 > ```
 
 Create a function:
 
 ```c
 /**
- * Searches for values in a two-dimensional 5-columns array that satisfy the condition, and counts them.
+ * Searches for values (that satisfy the condition) in a two-dimensional 5-columns array, and counts them.
  *
  * @param array A two-dimensional 5-columns array.
  * @param rows_number The number of rows in the array.
@@ -252,3 +253,31 @@ The function should find the count of the values in the a two-dimensional 5-colu
 | 6       | ... that are odd.                                                                            |
 
 Demonstrate at least three examples of using the `count()` function in the `main()` function.
+
+## 5. Matrix and diagonal
+
+Create a function:
+
+```c
+/**
+ * Calculates the average value of the values (that satisfy the condition) in a two-dimensional 5-columns array.
+ *
+ * @param array A two-dimensional 5-columns array.
+ * @param rows_number The number of rows in the array.
+ * @return The average value.
+ */
+double average(int array[][5], int rows_number);
+```
+
+The function should find the average value of the values in a two-dimensional 5-columns array ...
+
+| Variant | Description                           |
+| ------- | ------------------------------------- |
+| 1       | ... that are above the antidiagonal.  |
+| 2       | ... that are below the antidiagonal.  |
+| 3       | ... that are on the main diagonal.    |
+| 4       | ... that are on the antidiagonal.     |
+| 5       | ... that are above the main diagonal. |
+| 6       | ... that are below the main diagonal. |
+
+Demonstrate at least three examples of using the `average()` function in the `main()` function.
