@@ -6,6 +6,7 @@ Contents:
 - [1. Creating your first function](#1-creating-your-first-function)
 - [2. Searching for a value](#2-searching-for-a-value)
 - [3. Search and replacement](#3-search-and-replacement)
+- [4. Search and counting](#4-search-and-counting)
 
 ## 1. Creating your first function
 
@@ -160,14 +161,14 @@ Demonstrate at least three examples of using it in the `main()` function.
 > Here is an example how to pass an array as an argument of a function:
 >
 > ```c
-> void average(int array[]);
+> double average(int array[]);
 > ```
 
 Create a function:
 
 ```c
 /**
- * Searches for a value in an array.
+ * Searches the array for a value that satisfies the condition.
  *
  * @param array An array.
  * @param size The size of an array.
@@ -189,7 +190,7 @@ The function should search in the array a number ...
 
 Function should return `true` if the required number was found and `false` otherwise.
 
-Demonstrate at least three examples of using it in the `main()` function.
+Demonstrate at least three examples of using the `contains()` function in the `main()` function.
 
 ## 3. Search and replacement
 
@@ -197,7 +198,7 @@ Create a function:
 
 ```c
 /**
- * Searches for values in an array and replaces them.
+ * Searches for values in the array that satisfy the condition, and replaces them.
  *
  * @param array An array.
  * @param size The size of an array.
@@ -216,4 +217,38 @@ The function should replace all of the ...
 | 5       | ... even values in the array with zero. |
 | 6       | ... odd values in the array with zero.  |
 
-Demonstrate at least three examples of using it in the `main()` function.
+Demonstrate at least three examples of using the `filter()` function in the `main()` function.
+
+## 4. Search and counting
+
+> If a two-dimensional array is to be passed to a function, the parameter declaration in the function must include the number of columns (the number of rows is irrelevant):
+>
+> ```c
+> double average(int array[][5]);
+> ```
+
+Create a function:
+
+```c
+/**
+ * Searches for values in a two-dimensional 5-columns array that satisfy the condition, and counts them.
+ *
+ * @param array A two-dimensional 5-columns array.
+ * @param rows_number The number of rows in the array.
+ * @return The counting results.
+ */
+int count(int array[][5], int rows_number);
+```
+
+The function should find the count of the values in the a two-dimensional 5-columns array ...
+
+| Variant | Description                                                                                  |
+| ------- | -------------------------------------------------------------------------------------------- |
+| 1       | ... that are greater than `40` and less than `46`.                                           |
+| 2       | ... that are greater than `13` and less than `17`.                                           |
+| 3       | ... for which the remainder of the division by `14` is greater than `2` and less than `5`.   |
+| 4       | ... for which the remainder of the division by `22` is greater than `12` and less than `17`. |
+| 5       | ... that are even.                                                                           |
+| 6       | ... that are odd.                                                                            |
+
+Demonstrate at least three examples of using the `count()` function in the `main()` function.
