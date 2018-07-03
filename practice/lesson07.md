@@ -34,7 +34,7 @@ Contents:
 > }
 > ```
 >
-> This definition says tha `print_number` is a function that takes one `int` argument and returns nothing.
+> This definition says that `print_number` is a function that takes one `int` argument and returns nothing.
 
 Create a function. Demonstrate at least three examples of using it in the `main()` function. Write the results of a function into the standard output.
 
@@ -99,7 +99,7 @@ double mul(double left, double right);
 
 ```c
 /**
- * Calculates the divison of two numbers.
+ * Calculates the result of dividing the first number by the second.
  *
  * @param left First number.
  * @param right Second number.
