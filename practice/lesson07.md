@@ -5,6 +5,7 @@
 Contents:
 - [1. Creating your first function](#1-creating-your-first-function)
 - [2. Searching for a value](#2-searching-for-a-value)
+- [3. Search and replacement](#3-search-and-replacement)
 
 ## 1. Creating your first function
 
@@ -41,7 +42,7 @@ Contents:
 > print_number(24);
 > ```
 
-Create a function. Demonstrate at least three examples of using it in the `main()` function. Write the results of a function into the standard output.
+Create a function.
 
 Variants (click to open):
 
@@ -152,6 +153,8 @@ double sub(double left, double right);
 <hr>
 </details>
 
+Demonstrate at least three examples of using it in the `main()` function.
+
 ## 2. Searching for a value
 
 > Here is an example how to pass an array as an argument of a function:
@@ -186,4 +189,31 @@ The function should search in the array a number ...
 
 Function should return `true` if the required number was found and `false` otherwise.
 
-Demonstrate at least three examples of using it in the `main()` function. Write the results of a function into the standard output.
+Demonstrate at least three examples of using it in the `main()` function.
+
+## 3. Search and replacement
+
+Create a function:
+
+```c
+/**
+ * Searches for values in an array and replaces them.
+ *
+ * @param array An array.
+ * @param size The size of an array.
+ */
+void filter(int array[], int size);
+```
+
+The function should replace all of the ...
+
+| Variant | Description                             |
+| ------- | --------------------------------------- |
+| 1       | ... positive values by their square.    |
+| 2       | ... negative values by their cube.      |
+| 3       | ... positive values by their negation.  |
+| 4       | ... negative values by their negation.  |
+| 5       | ... even values in the array with zero. |
+| 6       | ... odd values in the array with zero.  |
+
+Demonstrate at least three examples of using it in the `main()` function.
