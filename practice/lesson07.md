@@ -4,6 +4,7 @@
 
 Contents:
 - [1. Creating your first function](#1-creating-your-first-function)
+- [2. Searching for a value](#2-searching-for-a-value)
 
 ## 1. Creating your first function
 
@@ -150,3 +151,39 @@ double sub(double left, double right);
 
 <hr>
 </details>
+
+## 2. Searching for a value
+
+> Here is an example how to pass an array as an argument of a function:
+>
+> ```c
+> void average(int array[]);
+> ```
+
+Create a function:
+
+```c
+/**
+ * Searches for a value in an array.
+ *
+ * @param array An array.
+ * @param size The size of an array.
+ * @return The search results.
+ */
+bool contains(int array[], int size);
+```
+
+The function should search in the array a number ...
+
+| Variant | Description                                                                                  |
+| ------- | -------------------------------------------------------------------------------------------- |
+| 1       | ... for which the remainder of the division by `6` equals `5`.                               |
+| 2       | ... for which the remainder of the division by `9` equals `4`.                               |
+| 3       | ... for which the remainder of the division by `31` is greater than `16` and less than `21`. |
+| 4       | ... for which the remainder of the division by `18` is greater than `4` and less than `7`.   |
+| 5       | ... is greater than `40` and less than `46`.                                                 |
+| 6       | ... is greater than `13` and less than `17`.                                                 |
+
+Function should return `true` if the required number was found and `false` otherwise.
+
+Demonstrate at least three examples of using it in the `main()` function. Write the results of a function into the standard output.
