@@ -34,7 +34,11 @@ Contents:
 > }
 > ```
 >
-> This definition says that `print_number` is a function that takes one `int` argument and returns nothing.
+> This definition says that `print_number` is a function that takes one `int` argument and returns nothing. Now the function can be called like this:
+>
+> ```c
+> print_number(24);
+> ```
 
 Create a function. Demonstrate at least three examples of using it in the `main()` function. Write the results of a function into the standard output.
 
