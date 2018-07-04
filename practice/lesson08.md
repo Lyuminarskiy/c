@@ -272,8 +272,8 @@ The data below is a vital statistic for Russia for recent years:
 Save the headers and the data in a two-dimensional arrays:
 
 ```c
-char headers[5][20];
-double data[8][5];
+char headers[5][20]; // Five 20-characters strings.
+double data[8][5]; // Matrix of size 8 rows and 5 columns.
 ```
 
 Using the `printf()` function and loops, display the data as a table as shown below.
