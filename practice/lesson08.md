@@ -7,6 +7,7 @@ Contents:
 - [2. Tabular view](#2-tabular-view)
 - [3. The `scanf()` function](#3-the-scanf-function)
 - [4. File access](#4-file-access)
+- [5. Reading data from a file](#5-reading-data-from-a-file)
 
 ## 1. The `printf()` function
 
@@ -602,3 +603,5 @@ potato
 Modify the second task so that the data is not output to the standard output, but written to the file named `population.txt`.
 
 To make this, create and open the file using `fopen()` function with the `"w"` mode. Then replace `printf()` function calls with `fprintf()` calls.
+
+## 5. Reading data from a file
