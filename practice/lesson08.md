@@ -4,6 +4,7 @@
 
 Contents:
 - [1. The `printf()` function](#1-the-printf-function)
+- [2. Tabular view](#2-tabular-view)
 
 ## 1. The `printf()` function
 
@@ -251,3 +252,7 @@ Display as:
 
 <hr>
 </details>
+
+## 2. Tabular view
+
+Using the `printf()` function  and conversion specifications, display the following data as a table.
