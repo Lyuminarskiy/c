@@ -278,7 +278,7 @@ char headers[5][20]; // Five 20-characters strings.
 double data[8][5]; // Matrix of size 8 rows and 5 columns.
 ```
 
-Using the `printf()` function and loops, display the data row by row as a table as shown below.
+Using the `printf()` function, display the data as a table as shown below. The easiest way to display the data is row by row, since each column requires various specifications.
 
 Variants (click to open):
 
