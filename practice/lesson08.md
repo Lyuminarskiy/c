@@ -6,6 +6,7 @@ Contents:
 - [1. The `printf()` function](#1-the-printf-function)
 - [2. Tabular view](#2-tabular-view)
 - [3. The `scanf()` function](#3-the-scanf-function)
+- [4. File access](#4-file-access)
 
 ## 1. The `printf()` function
 
@@ -276,7 +277,7 @@ char headers[5][20]; // Five 20-characters strings.
 double data[8][5]; // Matrix of size 8 rows and 5 columns.
 ```
 
-Using the `printf()` function and loops, display the data as a table as shown below.
+Using the `printf()` function and loops, display the data row by row as a table as shown below.
 
 Variants (click to open):
 
@@ -563,3 +564,41 @@ potato
 
 <hr>
 </details>
+
+## 4. File access
+
+> Before a file can be read or written, it has to be opened by the library function `fopen()`. `fopen()` takes an external  name like `file.txt`, does some housekeeping and negotiation with the operating system, and returns a pointer to be used in subsequent reads or writes of the file.
+>
+> This pointer, called the **file pointer**, has a `FILE` type. Here is an example of declaration a file pointer variable:
+>
+> ```c
+> FILE *file;
+> ```
+>
+> Syntax of the `fopen()` function is shown below:
+>
+> ```c
+> FILE *fopen(char *name, char *mode);
+> ```
+>
+> This says that `fopen()` returns a pointer to a `FILE`. The call to `fopen()` in a program looks like this:
+>
+> ```c
+> FILE *file;
+> file = fopen("file.txt", "r");
+> ```
+>
+> The first argument of `fopen()` is a character string containing the name of the file. The second argument is the `mode`, also a character string, which indicates how one intends to use the file. Allowable modes include read (`"x"`), write (`"w"`), and append (`"a"`).
+>
+> If a file that does not exist is opened for writing or appending, it is created if possible. Opening an existing file for writing causes the old contents to be discarded, while opening for appending preservers them. Trying to read a file that does not exist is an error, and there may be other causes of error as well, like trying to read a file when you don't have permission. If there is any error, `fopen()` will return `NULL`.
+>
+> For formatted input ot output of files, the functions `fscanf()` and `fprintf()` may be used. These are identical to `scanf()` and `printf()`, except the the first argument is a file pointer that specifies the file to be read or written. The `format` string is the second argument.
+>
+> ```c
+> int fscanf(FILE *file, char *format, arg1, arg2, ...);
+> int fprintf(FILE *file, char *format, arg1, arg2, ...);
+> ```
+
+Modify the second task so that the data is not output to the standard output, but written to the file named `population.txt`.
+
+To make this, create and open the file using `fopen()` function with the `"w"` mode. Then replace `printf()` function calls with `fprintf()` calls.
