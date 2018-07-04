@@ -450,7 +450,7 @@ Read the values below from the standard input using the `scanf()` function. Save
 
 Variants (click to open):
 
-<details open>
+<details>
 <summary>1</summary>
 <hr>
 
@@ -458,10 +458,10 @@ The input:
 
 ```
 23092
-08925
+024351
 0x4ABC
 5.627
-
+1.3249E+68
 a
 orange
 ```
@@ -473,12 +473,36 @@ orange
 <summary>2</summary>
 <hr>
 
+The input:
+
+```
+4823
+0536
+0x9dab
+6.45601
+1.241E+72
+h
+apple
+```
+
 <hr>
 </details>
 
 <details>
 <summary>3</summary>
 <hr>
+
+The input:
+
+```
+9981273
+06123
+0x34ccd
+90.39587
+1.124124e-108
+q
+tomato
+```
 
 <hr>
 </details>
@@ -487,6 +511,18 @@ orange
 <summary>4</summary>
 <hr>
 
+The input:
+
+```
+54824
+04624
+0x13af24
+-45.345
+-1.2346e+96
+z
+cherry
+```
+
 <hr>
 </details>
 
@@ -494,12 +530,36 @@ orange
 <summary>5</summary>
 <hr>
 
+The input:
+
+```
+89876124
+02351
+0x123acc
+-341.20000
+1.243E-74
+f
+blackberry
+```
+
 <hr>
 </details>
 
 <details>
 <summary>6</summary>
 <hr>
+
+The input:
+
+```
+349871
+02451354
+0xaabbcfd
+2124.0000124
+-1.43462E-89
+j
+potato
+```
 
 <hr>
 </details>
