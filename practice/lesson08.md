@@ -92,7 +92,7 @@ Display as:
 |2.34e+17|
 |  3765|
 |   7265|
-|EB5:
+|EB5   |
 |%|
 ```
 
@@ -123,7 +123,7 @@ Display as:
 |  9.8E+14|
 |2346    |
 | 4452|
-|92A   |
+|92A    |
 |%|
 ```
 
@@ -269,10 +269,10 @@ The data below is a vital statistic for Russia for recent years:
 | 2016 | 146'674'541      | 1'888'729   | 1'891'015 | -2'286         |
 | 2017 | 146'842'402      | 1'690'307   | 1'826'125 | -135'818       |
 
-Save the headers in a one-dimensional array and the data in a two-dimensional array:
+Save the headers and the data in a two-dimensional arrays:
 
 ```c
-char headers[5];
+char headers[5][20];
 double data[8][5];
 ```
 
@@ -284,7 +284,7 @@ Variants (click to open):
 <summary>1</summary>
 <hr>
 
-Output:
+The output:
 
 ```
 |     Year |     Total population |     Live births |     Deaths |     Natural change |
@@ -306,7 +306,7 @@ Output:
 <summary>2</summary>
 <hr>
 
-Output:
+The output:
 
 ```
 | Year     | Total population     | Live births     | Deaths     | Natural change     |
@@ -328,7 +328,7 @@ Output:
 <summary>3</summary>
 <hr>
 
-Output:
+The output:
 
 ```
 |     Year |     Total population |     Live births |     Deaths |     Natural change |
@@ -350,7 +350,7 @@ Output:
 <summary>4</summary>
 <hr>
 
-Output:
+The output:
 
 ```
 | Year     | Total population     | Live births     | Deaths     | Natural change     |
@@ -372,7 +372,7 @@ Output:
 <summary>5</summary>
 <hr>
 
-Output:
+The output:
 
 ```
 | Year | Total p. | Live births | Deaths     | Natural change |
@@ -394,7 +394,7 @@ Output:
 <summary>6</summary>
 <hr>
 
-Output:
+The output:
 
 ```
 | Year | Total p. | Live births | Deaths  | Natural ch. |
@@ -445,3 +445,61 @@ Output:
 > | `%`           | No assignment is made | Literal `'%'`.                                                                                                                                                                                 |
 >
 > The conversion characters `d`, `i`, `o`, `u`, and `x` may be preceded by `h` to indicate that a pointer to `short` rather than `int` appears in the argument list, or by `l` to indicate that a pointer to `long` appears in the argument list. Similarly, the conversion characters `e`, `f`, and `g` may be preceded by `l` to indicate that a pointer to `double` rather than `float` is in the argument list.
+
+Read the values below from the standard input using the `scanf()` function. Save these values in variables. Then display the read values using the `printf()` function.
+
+Variants (click to open):
+
+<details open>
+<summary>1</summary>
+<hr>
+
+The input:
+
+```
+23092
+08925
+0x4ABC
+5.627
+
+a
+orange
+```
+
+<hr>
+</details>
+
+<details>
+<summary>2</summary>
+<hr>
+
+<hr>
+</details>
+
+<details>
+<summary>3</summary>
+<hr>
+
+<hr>
+</details>
+
+<details>
+<summary>4</summary>
+<hr>
+
+<hr>
+</details>
+
+<details>
+<summary>5</summary>
+<hr>
+
+<hr>
+</details>
+
+<details>
+<summary>6</summary>
+<hr>
+
+<hr>
+</details>
