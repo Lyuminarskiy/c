@@ -279,7 +279,7 @@ Using the `printf()` function and loops, display the data as a table as shown be
 
 Variants (click to open):
 
-<details open>
+<details>
 <summary>1</summary>
 <hr>
 
