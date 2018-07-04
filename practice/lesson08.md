@@ -7,7 +7,7 @@ Contents:
 - [2. Tabular view](#2-tabular-view)
 - [3. The `scanf()` function](#3-the-scanf-function)
 - [4. File access](#4-file-access)
-- [5. Reading data from a file](#5-reading-data-from-a-file)
+- [5. Reformatting the data](#5-reformatting-the-data)
 
 ## 1. The `printf()` function
 
@@ -602,6 +602,100 @@ potato
 
 Modify the second task so that the data is not output to the standard output, but written to the file named `population.txt`.
 
-To make this, create and open the file using `fopen()` function with the `"w"` mode. Then replace `printf()` function calls with `fprintf()` calls.
+To make this, create and open the file (programmatically) using `fopen()` function with the `"w"` mode. Then replace `printf()` function calls with `fprintf()` calls.
 
-## 5. Reading data from a file
+## 5. Reformatting the data
+
+Create and open a file (manually) named `input.txt`. Then write down the following data into it:
+
+```
+ 9 -1 -6  3  5 -9  8  6 -8 -5  2  7 -4  0 -7
+```
+
+The task is to open the file called `input.txt`, read from there all the data, then create and open (programmatically) a new file `output.txt`, and write the data into it, as shown below.
+
+Variants (click to open):
+
+<details>
+<summary>1</summary>
+<hr>
+
+```
+ 9 -1 -6  3  5
+   -9  8  6 -8 -5
+       2  7 -4  0 -7
+```
+
+<hr>
+</details>
+
+<details>
+<summary>2</summary>
+<hr>
+
+```
+       9 -1 -6  3  5
+   -9  8  6 -8 -5
+ 2  7 -4  0 -7
+```
+
+<hr>
+</details>
+
+<details>
+<summary>3</summary>
+<hr>
+
+```
+ 9 -1 -6
+ 3  5 -9
+ 8  6 -8
+-5  2  7
+-4  0 -7
+```
+
+<hr>
+</details>
+
+<details>
+<summary>4</summary>
+<hr>
+
+```
+ 9 -1 -6  3  5
+-9  8  6 -8 -5
+ 2  7 -4  0 -7
+```
+
+<hr>
+</details>
+
+<details>
+<summary>5</summary>
+<hr>
+
+```
+ 9
+-1 -6
+ 3  5 -9
+ 8  6 -8 -5
+ 2  7 -4  0 -7
+```
+
+<hr>
+</details>
+
+<details>
+<summary>6</summary>
+<hr>
+
+```
+ 9 -1 -6  3  5
+-9  8  6 -8
+-5  2  7
+-4  0
+-7
+```
+
+<hr>
+</details>
