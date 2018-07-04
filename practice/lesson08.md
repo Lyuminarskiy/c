@@ -47,15 +47,207 @@ Contents:
 >
 > Most of the format conversions have been illustrated in earlier chapters. One exception is precision as it relates to strings. The following table shows the effect of a variety of specifications in printing `"hello, world"` message:
 >
-> | Specification | Printed as          |
-> | ------------- | ------------------- |
-> | `:%s:`        | `:hello, world:`    |
-> | `:%10s:`      | `:hello, world:`    |
-> | `:%.10s:`     | `:hello, wor:`      |
-> | `:%.-10s:`    | `:hello, world:`    |
-> | `:%.15s:`     | `:hello, world:`    |
-> | `:%-15s:`     | `:hello, world   :` |
-> | `:%15.10s:`   | `:     hello, wor:` |
-> | `:%-15.10s:`  | `:hello, wor     :` |
+> ```
+> | Specification | Printed as        |
+> | ------------- | ----------------- |
+> | :%s:          | :hello, world:    |
+> | :%10s:        | :hello, world:    |
+> | :%.10s:       | :hello, wor:      |
+> | :%.-10s:      | :hello, world:    |
+> | :%.15s:       | :hello, world:    |
+> | :%-15s:       | :hello, world   : |
+> | :%15.10s:     | :     hello, wor: |
+> | :%-15.10s:    | :hello, wor     : |
+> ```
 >
 > **A warning**: `printf()` uses its first argument to decide how many arguments follow and what their types are. It will get confused, and you will get wrong answers, if there are not enough arguments or if they are wrong type.
+
+Using the `printf()` function and conversion specifications, display the following values.
+
+Variants (click to open):
+
+<details>
+<summary>1</summary>
+<hr>
+
+Values:
+
+```c
+"abcdefghijklmnopqrstuvxyz"
+5.2818783475
+234987123649187236
+3765
+3765
+3765
+"%"
+```
+
+Display as:
+
+```
+|abcdefghijk   |
+|    5.281|
+|2.34e+17|
+|  3765|
+|   7265|
+|EB5:
+|%|
+```
+
+<hr>
+</details>
+
+<details>
+<summary>2</summary>
+<hr>
+
+Values:
+
+```c
+"abcdefghijklmnopqrstuvxyz"
+6.3298716238
+988711224321235
+2346
+2346
+2346
+"%"
+```
+
+Display as:
+
+```
+|   abcdefg|
+| 6.3298|
+|  9.8E+14|
+|2346    |
+| 4452|
+|92A   |
+|%|
+```
+
+<hr>
+</details>
+
+<details>
+<summary>3</summary>
+<hr>
+
+Values:
+
+```c
+"abcdefghijklmnopqrstuvxyz"
+123.30409812
+23499128370123
+7783
+7783
+7783
+"%"
+```
+
+Display as:
+
+```
+|abcdef|
+|123.3     |
+|    2.3499e+13|
+|  7783|
+|17147  |
+|    1e67|
+|%|
+```
+
+<hr>
+</details>
+
+<details>
+<summary>4</summary>
+<hr>
+
+Values:
+
+```c
+"abcdefghijklmnopqrstuvxyz"
+998.2
+9786987634
+2347
+2347
+2347
+"%"
+```
+
+Display as:
+
+```
+|abcdefghijklmnopqrstuvxyz   |
+| 998.2000|
+|    9e+9|
+|2347   |
+|  4453|
+|  92b|
+|%|
+```
+
+<hr>
+</details>
+
+<details>
+<summary>5</summary>
+<hr>
+
+Values:
+
+```c
+"abcdefghijklmnopqrstuvxyz"
+3874.1
+0,000000000000012598763
+4234
+4234
+4234
+"%"
+```
+
+Display as:
+
+```
+|   abcdefghijklmnopqrstuvxyz|
+|  3874|
+|1E-14   |
+| 4234|
+|10212   |
+|   108A|
+|%|
+```
+
+<hr>
+</details>
+
+<details>
+<summary>6</summary>
+<hr>
+
+Values:
+
+```c
+"abcdefghijklmnopqrstuvxyz"
+24987,23
+0,00000000023487
+3423435
+3423435
+3423435
+"%"
+```
+
+Display as:
+
+```
+|   abcdefghijkl|
+|24987,23000  |
+|  2,3E-10|
+|   3423435|
+|15036313   |
+| 343ccb|
+|%|
+```
+
+<hr>
+</details>
