@@ -5,6 +5,7 @@
 Contents:
 - [1. The `printf()` function](#1-the-printf-function)
 - [2. Tabular view](#2-tabular-view)
+- [3. The `scanf()` function](#3-the-scanf-function)
 
 ## 1. The `printf()` function
 
@@ -36,9 +37,9 @@ Contents:
 > | `s`       | `char*`, `char[]`        | Print characters from the string until a `\0` or the number of characters given by the precision.                                                                            |
 > | `f`       | `double`                 | `[-]m.dddddd`, where the number of `d`'s is given by the precision (default is `6`).                                                                                         |
 > | `e`, `E`  | `double`                 | `[-]m.dddddde±xx` or `[-]m.ddddddE±xx`, where the number of `d`'s is given by the precision (default is `6`).                                                                |
-> | `g`, `G`  | `double`                 | Use `%e` of `%E` if the exponent is less than `-4` or greater than or equal to the precision; otherwise use `%f`. Trailing zeros and trailing decimal point are not printed. |
+> | `g`, `G`  | `double`                 | Use `"%e"` of `"%E"` if the exponent is less than `-4` or greater than or equal to the precision; otherwise use `"%f"`. Trailing zeros and trailing decimal point are not printed. |
 > | `p`       | `void*`                  | Pointer (implementation-dependent representation).                                                                                                                           |
-> | `%`       | No argument is converted | Print a `%`.                                                                                                                                                                 |
+> | `%`       | No argument is converted | Print a `'%'`.                                                                                                                                                                 |
 >
 > A width or precision may be specified as `*`, in which case the value is computed by converting the next argument (which must be an `int`). For example, printing at most `max` characters from a string `s`:
 >
@@ -410,3 +411,37 @@ Output:
 
 <hr>
 </details>
+
+## 3. The `scanf()` function
+
+> The function `scanf()` is the input analog of `printf()`, providing many of the same conversion facilities in the opposite direction:
+>
+> ```c
+> int scanf(char *format, arg1, arg2, ...);
+> ```
+>
+> `scanf()` reads characters from the standard input, interprets them according to the specification in `format`, and stores the results through the remaining arguments. The `format` argument is described below. The other arguments indicate where the corresponding converted input should be stored.
+>
+> `scanf()` stops when it exhausts its format string, or when some input fails to match the control specification. It returns as its value the number of successfully matched and assigned input items. This can be used to decide how many items were found.
+>
+> The `format` string usually contains conversion specifications, which are used to control conversion of input. The `format` string may contain:
+>
+> 1. Blanks ot tabs, which are ignored.
+> 2. Ordinary characters (not `'%'`), which are expected to match the next non-white space character of the input stream.
+> 3. Conversion specifications, consisting of the character `'%'`, an optional assignment suppression character `'*'`, an optional number specifying a maximum field width, an optional `'h'`, `'l'`, or `'L'` indicating the width of the target, and conversion character.
+>
+> Conversion characters are shown in table below. If the character after the `%` is not a conversion specification, the behavior is undefined.
+>
+> | Character     | Argument type         | Input data                                                                                                                                                                                     |
+> | ------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+> | `d`           | `int*`                | Decimal integer.                                                                                                                                                                               |
+> | `i`           | `int*`                | Integer. The integer may be in octal (leading `0`) or hexadecimal (leading `0x` or `0X`).                                                                                                      |
+> | `o`           | `int*`                | Octal integer (with or without a leading zero).                                                                                                                                                |
+> | `u`           | `unsigned int*`       | Unsigned decimal integer.                                                                                                                                                                      |
+> | `x`           | `int*`                | Hexadecimal integer (with or without a leading `0x` ot `0X`).                                                                                                                                  |
+> | `c`           | `char*`               | Characters. The next input characters (default `1`) are placed at the indicated spot. The normal skip over white space is suppressed. To read the next non-white space character, use `"%1s"`. |
+> | `s`           | `char*`, `char[]`     | Character string (not quoted). Pointing to an array of characters large enough for the string and a terminating `'\0'` that will be added.                                                     |
+> | `e`, `f`, `g` | `float*`              | Floating-point number with optional sign, optional decimal point and optional exponent.                                                                                                        |
+> | `%`           | No assignment is made | Literal `'%'`.                                                                                                                                                                                 |
+>
+> The conversion characters `d`, `i`, `o`, `u`, and `x` may be preceded by `h` to indicate that a pointer to `short` rather than `int` appears in the argument list, or by `l` to indicate that a pointer to `long` appears in the argument list. Similarly, the conversion characters `e`, `f`, and `g` may be preceded by `l` to indicate that a pointer to `double` rather than `float` is in the argument list.
