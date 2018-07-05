@@ -1,0 +1,16 @@
+language: node_js
+node_js: node
+
+install: npm install -D vuepress
+
+script: npm run docs:build
+
+deploy:
+  skip-cleanup: true
+  provider: pages
+  github-token: $GITHUB_TOKEN
+  repo: Vladislav-Lyuminarskiy/C-course-site
+  target-branch: master
+  local-dir: docs/.vuepress/dist
+  on:
+    branch: master
