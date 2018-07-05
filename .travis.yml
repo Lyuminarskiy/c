@@ -1,7 +1,9 @@
 language: node_js
 node_js: node
 
-install: npm install -D vuepress
+install:
+  - npm install -D vuepress
+  - npm install -D markdown-it-katex
 
 script: npm run docs:build
 
