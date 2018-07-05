@@ -1,9 +1,10 @@
 [Back to the homepage](../README.md)
 
-# Standard library: `<string.h>`
+# Standard library: `<string.h>`, `<math.h>`
 
 Contents:
 - [1. `<string.h>`](#1-stringh)
+- [2. `<math.h>`](#2-mathh)
 
 ## 1. `<string.h>`
 
@@ -74,3 +75,22 @@ Create a string, find the length of the string using the `strlen ()` function, a
 
 <hr>
 </details>
+
+## 2. `<math.h>`
+
+Create the `f(x)` function using the functions from `<math.h>`:
+
+```c
+double f(double x);
+```
+
+Demonstrate at least three examples of using it in the `f(x)` function.
+
+| Variant | Math formula                     |
+| ------- | -------------------------------- |
+| 1       | ![8.2.1.png](practice/8.2.1.png) |
+| 2       | ![8.2.2.png](practice/8.2.2.png) |
+| 3       | ![8.2.3.png](practice/8.2.3.png) |
+| 4       | ![8.2.4.png](practice/8.2.4.png) |
+| 5       | ![8.2.5.png](practice/8.2.5.png) |
+| 6       | ![8.2.6.png](practice/8.2.6.png) |
