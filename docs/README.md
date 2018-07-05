@@ -15,8 +15,8 @@ List of lessons:
 5. [Strings](lessons/05.md).
 6. [Multidimensional arrays](lessons/06.md).
 7. [Functions](lessons/07.md).
-8. [Standard library: `<stdio.h>`](lessons/08.md).
-9. [Standard library: `<string.h>`, `<math.h>`, `<ctype.h>`](lessons/09.md).
+8. [Standard library: `stdio.h`](lessons/08.md).
+9. [Standard library: miscellaneous](lessons/09.md).
 10. [Combining everything together](lessons/10.md).
 
 ## References
