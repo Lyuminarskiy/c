@@ -88,9 +88,9 @@ Demonstrate at least three examples of using it in the `f(x)` function.
 
 | Variant | Math formula                     |
 | ------- | -------------------------------- |
-| 1       | ![8.2.1.png](practice/8.2.1.png) |
-| 2       | ![8.2.2.png](practice/8.2.2.png) |
-| 3       | ![8.2.3.png](practice/8.2.3.png) |
-| 4       | ![8.2.4.png](practice/8.2.4.png) |
-| 5       | ![8.2.5.png](practice/8.2.5.png) |
-| 6       | ![8.2.6.png](practice/8.2.6.png) |
+| 1       | ![8.2.1.png](8.2.1.png) |
+| 2       | ![8.2.2.png](8.2.2.png) |
+| 3       | ![8.2.3.png](8.2.3.png) |
+| 4       | ![8.2.4.png](8.2.4.png) |
+| 5       | ![8.2.5.png](8.2.5.png) |
+| 6       | ![8.2.6.png](8.2.6.png) |
