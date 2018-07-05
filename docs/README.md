@@ -1,5 +1,7 @@
 # The C Programming Language Course
 
+Educational materials for course "The C Programming Language".
+
 [List of students and work progress](https://docs.google.com/spreadsheets/d/1uk7V20U0G_Omt3jQ65sDxLfHyrtbsejVl2sRb7WzATk/edit?usp=sharing).
 
 ## Practice

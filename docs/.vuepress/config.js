@@ -1,5 +1,11 @@
 module.exports = {
   base: '/C-course-website/',
+  head: [
+    ['link', {
+      rel: 'stylesheet',
+      href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
+    }]
+  ],
   locales: {
     '/': {
       lang: 'en-US',
@@ -33,9 +39,6 @@ module.exports = {
     editLinks: true
   },
   markdown: {
-    toc: {
-      listType: "ol"
-    },
     config(md) {
       md.use(require('markdown-it-katex'));
     }
