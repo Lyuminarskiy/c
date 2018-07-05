@@ -3,7 +3,14 @@ module.exports = {
   head: [
     ['link', {
       rel: 'stylesheet',
-      href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
+      href: 'https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.css',
+      integrity: 'sha384-9tPv11A+glH/on/wEu99NVwDPwkMQESOocs/ZGXPoIiLE8MU/qkqUcZ3zzL+6DuH',
+      crossorigin: 'anonymous'
+    }],
+    ['script', {
+      src: 'https://cdn.jsdelivr.net/npm/katex@0.10.0-beta/dist/katex.min.js',
+      integrity: 'sha384-U8Vrjwb8fuHMt6ewaCy8uqeUXv4oitYACKdB0VziCerzt011iQ/0TqlSlv8MReCm',
+      crossorigin: 'anonymous'
     }]
   ],
   locales: {
