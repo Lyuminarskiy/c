@@ -3,11 +3,7 @@
 # Functions
 
 Contents:
-- [1. Creating your first function](#1-creating-your-first-function)
-- [2. Searching for a value](#2-searching-for-a-value)
-- [3. Search and replacement](#3-search-and-replacement)
-- [4. Search and counting](#4-search-and-counting)
-- [5. Matrix and diagonal](#5-matrix-and-diagonal)
+[[toc]]
 
 ## 1. Creating your first function
 

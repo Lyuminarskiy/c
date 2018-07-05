@@ -3,11 +3,7 @@
 # Conditional expression, enumerations, and `switch` statement
 
 Contents:
-- [1. Conditional expression](#1-conditional-expression)
-- [2. Enumerations](#2-enumerations)
-- [3. `switch` statement](#3-switch-statement)
-- [4. From `if-else` statement to `switch` statement](#4-from-if-else-statement-to-switch-statement)
-- [5. Making a questionnaire](#5-making-a-questionnaire)
+[[toc]]
 
 ## 1. Conditional expression
 

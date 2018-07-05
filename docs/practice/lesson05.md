@@ -3,11 +3,7 @@
 # Strings
 
 Contents:
-- [1. String constants](#1-string-constants)
-- [2. Searching for a characters](#2-searching-for-a-characters)
-- [3. Counting characters](#3-counting-characters)
-- [4. Replacing characters](#4-replacing-characters)
-- [5. Calculation of the string's weight](#5-calculation-of-the-strings-weight)
+[[toc]]
 
 ## 1. String constants
 

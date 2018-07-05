@@ -3,9 +3,7 @@
 # Standard library: `<string.h>`, `<math.h>`, `<ctype.h>`
 
 Contents:
-- [1. `<string.h>`](#1-stringh)
-- [2. `<math.h>`](#2-mathh)
-- [3. `<ctype.h>`](#3-ctypeh)
+[[toc]]
 
 ## 1. `<string.h>`
 

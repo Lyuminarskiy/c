@@ -3,11 +3,7 @@
 # Multidimensional arrays
 
 Contents:
-- [1. First steps](#1-first-steps)
-- [2. Search and summation](#2-search-and-summation)
-- [3. Search and replacement](#3-search-and-replacement)
-- [4. Search and counting](#4-search-and-counting)
-- [5. Matrix and diagonal](#5-matrix-and-diagonal)
+[[toc]]
 
 ## 1. First steps
 

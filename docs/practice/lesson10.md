@@ -2,7 +2,6 @@
 
 # Combining everything together
 
-
 Variants (click to open):
 
 <details>

@@ -3,11 +3,7 @@
 # Loops and arrays: part one
 
 Contents:
-- [1. `while` loop](#1-while-loop)
-- [2. `for` loop](#2-for-loop)
-- [3. `do-while` loop](#3-do-while-loop)
-- [4. Arrays](#4-arrays)
-- [5. `break` statement](#5-break-statement)
+[[toc]]
 
 ## 1. `while` loop
 

@@ -3,11 +3,7 @@
 # Standard library: `<stdio.h>`
 
 Contents:
-- [1. The `printf()` function](#1-the-printf-function)
-- [2. Tabular view](#2-tabular-view)
-- [3. The `scanf()` function](#3-the-scanf-function)
-- [4. File access](#4-file-access)
-- [5. Reformatting the data](#5-reformatting-the-data)
+[[toc]]
 
 ## 1. The `printf()` function
 

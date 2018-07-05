@@ -3,11 +3,7 @@
 # Loops and arrays: part two
 
 Contents:
-- [1. `continue` statement](#1-continue-statement)
-- [2. Search and summation](#2-search-and-summation)
-- [3. Search and replacement](#3-search-and-replacement)
-- [4. From `for` loop to `while` loop](#4-from-for-loop-to-while-loop)
-- [5. From `while` loop to `for` loop](#5-from-while-loop-to-for-loop)
+[[toc]]
 
 ## 1. `continue` statement
 

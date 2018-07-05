@@ -3,11 +3,7 @@
 # Basic data types, operators, and `if-else` statement
 
 Contents:
-- [1. Getting started](#1-getting-started)
-- [2. Basic data types and declarations](#2-basic-data-types-and-declarations)
-- [3. `if-else` statement](#3-if-else-statement)
-- [4. `if-else` statements chain](#4-if-else-statements-chain)
-- [5. Operators](#5-operators)
+[[toc]]
 
 ## 1. Getting started
 
