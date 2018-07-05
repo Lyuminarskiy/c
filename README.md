@@ -23,7 +23,7 @@ List of lessons:
 6. [Multidimensional arrays](practice/lesson06.md).
 7. [Functions](practice/lesson07.md).
 8. [Standard library: `<stdio.h>`](practice/lesson08.md).
-9. [Standard library: `<string.h>`, `<math.h>`](practice/lesson09.md).
+9. [Standard library: `<string.h>`, `<math.h>`, `<ctype.h>`](practice/lesson09.md).
 10. [Combining everything together](practice/lesson10.md).
 
 ## References
