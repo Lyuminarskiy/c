@@ -10,20 +10,29 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
-      '/practice/lesson01',
-      '/practice/lesson02',
-      '/practice/lesson03',
-      '/practice/lesson04',
-      '/practice/lesson05',
-      '/practice/lesson06',
-      '/practice/lesson07',
-      '/practice/lesson08',
-      '/practice/lesson09',
-      '/practice/lesson10',
-    ]
+      {
+        title: 'Lessons',
+        collapsable: false,
+        children: [
+          '/lessons/01',
+          '/lessons/02',
+          '/lessons/03',
+          '/lessons/04',
+          '/lessons/05',
+          '/lessons/06',
+          '/lessons/07',
+          '/lessons/08',
+          '/lessons/09',
+          '/lessons/10',
+        ]
+      },
+    ],
+    lastUpdated: true,
+    repo: 'Vladislav-Lyuminarskiy/C-course',
+    docsDir: 'docs',
+    editLinks: true
   },
   markdown: {
-    lineNumbers: true,
     toc: {
       listType: "ol"
     },
