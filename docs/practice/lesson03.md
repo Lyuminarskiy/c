@@ -1,5 +1,3 @@
-[Back to the homepage](../README.md)
-
 # Loops and arrays: part one
 
 Contents:

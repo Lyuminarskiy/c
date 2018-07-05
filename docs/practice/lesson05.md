@@ -1,5 +1,3 @@
-[Back to the homepage](../README.md)
-
 # Strings
 
 Contents:

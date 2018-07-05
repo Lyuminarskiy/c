@@ -1,5 +1,3 @@
-[Back to the homepage](../README.md)
-
 # Conditional expression, enumerations, and `switch` statement
 
 Contents:

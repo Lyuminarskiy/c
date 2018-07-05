@@ -1,5 +1,3 @@
-[Back to the homepage](../README.md)
-
 # Combining everything together
 
 Variants (click to open):

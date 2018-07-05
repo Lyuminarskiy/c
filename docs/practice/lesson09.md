@@ -1,9 +1,7 @@
-[Back to the homepage](../README.md)
-
 # Standard library: `<string.h>`, `<math.h>`, `<ctype.h>`
 
 Contents:
-[[toc]]
+
 
 ## 1. `<string.h>`
 

@@ -1,5 +1,3 @@
-[Back to the homepage](../README.md)
-
 # Basic data types, operators, and `if-else` statement
 
 Contents:
