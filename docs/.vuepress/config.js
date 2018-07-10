@@ -36,7 +36,11 @@ module.exports = {
     lastUpdated: true,
     repo: 'Vladislav-Lyuminarskiy/C-course',
     docsDir: 'docs',
-    editLinks: true
+    editLinks: true,
+    algolia: {
+      apiKey: '892ad28dc056e1eb225c126678ef1c09',
+      indexName: 'c_vladislav'
+    }
   },
   markdown: {
     config(md) {
