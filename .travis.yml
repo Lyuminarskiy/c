@@ -3,14 +3,23 @@ node_js: node
 
 install: npm install --save-dev vuepress markdown-it-katex
 
-script: npm run docs:build
+stages:
+  - Build
+  - Deploy
 
-deploy:
-  skip-cleanup: true
-  provider: pages
-  github-token: $GITHUB_TOKEN
-  repo: Vladislav-Lyuminarskiy/C-course-website
-  target-branch: master
-  local-dir: docs/.vuepress/dist
-  on:
-    branch: master
+jobs:
+  include:
+    - stage: Build
+      script: npm run docs:build
+
+    - stage: Deploy
+      script: skip
+      deploy:
+        skip-cleanup: true
+        provider: pages
+        github-token: $GITHUB_TOKEN
+        repo: Vladislav-Lyuminarskiy/C-course-website
+        target-branch: master
+        local-dir: docs/.vuepress/dist
+        on:
+          branch: master
