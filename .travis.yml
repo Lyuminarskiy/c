@@ -2,7 +2,6 @@ language: node_js
 node_js: node
 
 install: npm install --save-dev vuepress markdown-it-katex
-script: npm run docs:build
 
 stages:
   - Deploy
@@ -10,7 +9,7 @@ stages:
 jobs:
   include:
     - stage: Deploy
-      script: skip
+      script: npm run docs:build
       deploy:
         skip-cleanup: true
         provider: pages
