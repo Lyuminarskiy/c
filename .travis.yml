@@ -2,16 +2,13 @@ language: node_js
 node_js: node
 
 install: npm install --save-dev vuepress markdown-it-katex
+script: npm run docs:build
 
 stages:
-  - Build
   - Deploy
 
 jobs:
   include:
-    - stage: Build
-      script: npm run docs:build
-
     - stage: Deploy
       script: skip
       deploy:
