@@ -2,6 +2,14 @@ module.exports = {
   base: '/C-course-website/',
   head: [
     ['link', {
+      rel: 'icon',
+      href: '/icons/icon512.png'
+    }],
+    ['link', {
+      rel: 'manifest',
+      href: '/manifest.webmanifest'
+    }],
+    ['link', {
       rel: 'stylesheet',
       href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
     }]

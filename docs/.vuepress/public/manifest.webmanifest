@@ -3,8 +3,20 @@
   "name": "The C Programming Language Course",
   "short_name": "C Course",
   "description": "Educational materials for course 'The C Programming Language'.",
-  "start_url": "/C-course-website/",
-  "scope": "/C-course-website/",
+  "start_url": "/C-course-website",
   "theme_color": "#3eaf7c",
-  "background_color": "#3eaf7c"
+  "background_color": "#3eaf7c",
+  "display": "standalone",
+  "orientation": "any",
+  "icons": [{
+      "src": "/C-course-website/icons/icon192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/C-course-website/icons/icon512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
 }
