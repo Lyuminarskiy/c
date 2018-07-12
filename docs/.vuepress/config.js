@@ -1,6 +1,14 @@
 module.exports = {
   base: '/C-course-website/',
   head: [
+    ['meta', {
+      name: 'author',
+      content: 'Vladislav Lyuminarskiy'
+    }],
+    ['meta', {
+      name: 'theme-color',
+      content: '#3eaf7c'
+    }],
     ['link', {
       rel: 'icon',
       href: '/icons/icon512.png'
