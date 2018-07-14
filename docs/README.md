@@ -6,6 +6,10 @@ Educational materials for course "The C Programming Language".
 
 ## Practice
 
+::: tip NOTE
+To perform tasks it is recommended to use [Code::Blocks](http://www.codeblocks.org) - a free C and C++ IDE.
+:::
+
 List of lessons:
 
 1. [Basic data types, operators, and `if-else` statement](lessons/01.md).
