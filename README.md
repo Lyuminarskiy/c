@@ -5,4 +5,4 @@
 
 Educational materials for course "The C Programming Language".
 
-[Visit the website](https://vladislav-lyuminarskiy.github.io/C-course-website/)
+[Visit the website](https://vladislav-lyuminarskiy-websites.github.io/C-course-website/)

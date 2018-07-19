@@ -14,7 +14,7 @@ jobs:
         skip-cleanup: true
         provider: pages
         github-token: $GITHUB_TOKEN
-        repo: Vladislav-Lyuminarskiy/C-course-website
+        repo: Vladislav-Lyuminarskiy-websites/C-course-website
         target-branch: master
         local-dir: docs/.vuepress/dist
         on:
