@@ -53,6 +53,9 @@ module.exports = {
     repo: 'Vladislav-Lyuminarskiy/C-course',
     docsDir: 'docs',
     editLinks: true,
+    serviceWorker: {
+      updatePopup: true
+    },
     algolia: {
       apiKey: '892ad28dc056e1eb225c126678ef1c09',
       indexName: 'c_vladislav'
