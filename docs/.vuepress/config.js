@@ -58,7 +58,10 @@ module.exports = {
     },
     algolia: {
       apiKey: '892ad28dc056e1eb225c126678ef1c09',
-      indexName: 'c_vladislav'
+      indexName: 'c_vladislav',
+      algoliaOptions: {
+        facetFilters: ["tags:c"]
+      }
     }
   },
   markdown: {
@@ -66,5 +69,6 @@ module.exports = {
       md.use(require('markdown-it-katex'));
     }
   },
-  serviceWorker: true
+  serviceWorker: true,
+  evergreen: true
 }
