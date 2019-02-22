@@ -1,5 +1,4 @@
 module.exports = {
-  base: '/C-course-website/',
   head: [
     ['meta', {
       name: 'author',
@@ -50,7 +49,7 @@ module.exports = {
       },
     ],
     lastUpdated: true,
-    repo: 'Vladislav-Lyuminarskiy/C-course',
+    repo: 'C-course/C-course',
     docsDir: 'docs',
     editLinks: true,
     serviceWorker: {
