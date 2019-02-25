@@ -16,6 +16,10 @@ module.exports = {
       rel: 'manifest',
       href: '/manifest.webmanifest'
     }],
+    ["link", {
+      rel: "license",
+      href: "/LICENSE"
+    }],
     ['link', {
       rel: 'stylesheet',
       href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css'
@@ -29,6 +33,25 @@ module.exports = {
     }
   },
   themeConfig: {
+    docsDir: 'docs',
+    lastUpdated: "Last updated",
+    editLinkText: "Edit this page",
+    serviceWorker: {
+      updatePopup: {
+        message: "New content is available.",
+        buttonText: "Refresh"
+      }
+    },
+    algolia: {
+      apiKey: '892ad28dc056e1eb225c126678ef1c09',
+      indexName: 'c_vladislav',
+      algoliaOptions: {
+        facetFilters: [
+          "lang:en-US",
+          "tags:c-course"
+        ]
+      }
+    },
     sidebar: [
       '/',
       {
@@ -48,26 +71,13 @@ module.exports = {
         ]
       },
     ],
-    lastUpdated: true,
     repo: 'C-course/C-course',
-    docsDir: 'docs',
     editLinks: true,
-    serviceWorker: {
-      updatePopup: true
-    },
-    algolia: {
-      apiKey: '892ad28dc056e1eb225c126678ef1c09',
-      indexName: 'c_vladislav',
-      algoliaOptions: {
-        facetFilters: ["tags:c"]
+    evergreen: true,
+    markdown: {
+      config(md) {
+        md.use(require('markdown-it-katex'));
       }
     }
-  },
-  markdown: {
-    config(md) {
-      md.use(require('markdown-it-katex'));
-    }
-  },
-  serviceWorker: true,
-  evergreen: true
+  }
 }
