@@ -1,5 +1,6 @@
 module.exports = {
   evergreen: true,
+  serviceWorker: true,
   markdown: {
     config(md) {
       md.use(require("markdown-it-katex"));
