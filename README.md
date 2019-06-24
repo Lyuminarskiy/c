@@ -5,4 +5,4 @@
 
 Educational materials for course "The C Programming Language".
 
-[Visit the website](https://c-course.github.io)
+2. [Conditional expression, enumerations, and switch statement.](https://github.com/Nordth/C-course/blob/master/docs/lessons/02.md)
