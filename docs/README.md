@@ -12,16 +12,16 @@ To perform tasks it is recommended to use [Code::Blocks](http://www.codeblocks.o
 
 List of lessons:
 
-1. [Basic data types, operators, and `if-else` statement](lessons/01.md).
-2. [Conditional expression, enumerations, and `switch` statement](lessons/02.md).
-3. [Loops and arrays: part one](lessons/03.md).
-4. [Loops and arrays: part two](lessons/04.md).
-5. [Strings](lessons/05.md).
-6. [Multidimensional arrays](lessons/06.md).
-7. [Functions](lessons/07.md).
-8. [Standard library: `stdio.h`](lessons/08.md).
-9. [Standard library: miscellaneous](lessons/09.md).
-10. [Combining everything together](lessons/10.md).
+1. [Basic data types, operators, and `if-else` statement](practice/01.md).
+2. [Conditional expression, enumerations, and `switch` statement](practice/02.md).
+3. [Loops and arrays: part one](practice/03.md).
+4. [Loops and arrays: part two](practice/04.md).
+5. [Strings](practice/05.md).
+6. [Multidimensional arrays](practice/06.md).
+7. [Functions](practice/07.md).
+8. [Standard library: `stdio.h`](practice/08.md).
+9. [Standard library: miscellaneous](practice/09.md).
+10. [Combining everything together](practice/10.md).
 
 ## References
 
