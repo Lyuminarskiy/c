@@ -71,24 +71,36 @@ module.exports = {
         ]
       }
     },
-    sidebar: [
-      "/",
+    nav: [
       {
-        title: "Practice lessons",
-        collapsable: false,
-        children: [
-          "/practice/01/",
-          "/practice/02/",
-          "/practice/03/",
-          "/practice/04/",
-          "/practice/05/",
-          "/practice/06/",
-          "/practice/07/",
-          "/practice/08/",
-          "/practice/09/",
-          "/practice/10/",
-        ]
+        text: "About",
+        link: "/about/"
       },
-    ]
+      {
+        text: "Practice lessons",
+        link: "/practice/"
+      }
+    ],
+    sidebar: {
+      "/practice/": [
+        "",
+        {
+          title: "Practice lessons",
+          collapsable: false,
+          children: [
+            "01/",
+            "02/",
+            "03/",
+            "04/",
+            "05/",
+            "06/",
+            "07/",
+            "08/",
+            "09/",
+            "10/",
+          ]
+        },
+      ]
+    }
   }
 };
