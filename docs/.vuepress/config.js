@@ -74,19 +74,19 @@ module.exports = {
     sidebar: [
       "/",
       {
-        title: "Lessons",
+        title: "Practice lessons",
         collapsable: false,
         children: [
-          "/lessons/01",
-          "/lessons/02",
-          "/lessons/03",
-          "/lessons/04",
-          "/lessons/05",
-          "/lessons/06",
-          "/lessons/07",
-          "/lessons/08",
-          "/lessons/09",
-          "/lessons/10",
+          "/practice/01/",
+          "/practice/02/",
+          "/practice/03/",
+          "/practice/04/",
+          "/practice/05/",
+          "/practice/06/",
+          "/practice/07/",
+          "/practice/08/",
+          "/practice/09/",
+          "/practice/10/",
         ]
       },
     ]
