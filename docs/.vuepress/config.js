@@ -1,10 +1,24 @@
 module.exports = {
-  ga: "UA-138493396-4",
   evergreen: true,
-  serviceWorker: true,
-  markdown: {
-    config(md) {
-      md.use(require("markdown-it-katex"));
+  plugins: {
+    "@vuepress/back-to-top": {},
+    "@vuepress/google-analytics": {
+      ga: "UA-138493396-4"
+    },
+    "@vuepress/medium-zoom": {
+      selector: ".theme-default-content img",
+      options: {
+        scrollOffset: 0
+      }
+    },
+    "@vuepress/pwa": {
+      updatePopup: {
+        message: "New content is available.",
+        buttonText: "Refresh"
+      }
+    },
+    mathjax: {
+      target: "svg"
     }
   },
   head: [
@@ -14,7 +28,7 @@ module.exports = {
     }],
     ["meta", {
       name: "theme-color",
-      content: "#3eaf7c"
+      content: "#5d6cbf"
     }],
     ["link", {
       rel: "icon",
@@ -37,8 +51,7 @@ module.exports = {
     "/": {
       lang: "en-US",
       title: "The C Programming Language Course",
-      description: "Educational materials for course " +
-                   "\"The C Programming Language\"."
+      description: 'Educational materials for course "The C Programming Language".'
     }
   },
   themeConfig: {
@@ -48,12 +61,6 @@ module.exports = {
     logo: "/icons/icon512.png",
     lastUpdated: "Last updated",
     editLinkText: "Edit this page",
-    serviceWorker: {
-      updatePopup: {
-        message: "New content is available.",
-        buttonText: "Refresh"
-      }
-    },
     algolia: {
       apiKey: "892ad2d8c056e1eb225c126678ef1c09",
       indexName: "c_vladislav",
